@@ -1,0 +1,49 @@
+{
+  "movie": {
+    "tmdb_movie_id": 120
+  },
+  "release_year": 2021,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    },
+    {
+      "format": "DVD",
+      "disc_count": 1,
+      "region": "UNKNOWN"
+    },
+    {
+      "format": "DVD",
+      "disc_count": 1,
+      "region": "UNKNOWN"
+    },
+    {
+      "format": "DVD",
+      "disc_count": 1,
+      "region": "UNKNOWN"
+    }
+  ],
+  "upc": "5051892165532",
+  "edition_tags": [
+    "extended"
+  ],
+  "notes": "Extended Edition 5-Disc Set",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "379343",
+      "url": "https://www.blu-ray.com/movies/The-Lord-of-the-Rings-The-Fellowship-of-the-Ring-Blu-ray/379343/"
+    }
+  ]
+}

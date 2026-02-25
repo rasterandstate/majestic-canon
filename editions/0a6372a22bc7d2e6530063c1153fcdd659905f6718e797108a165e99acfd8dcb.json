@@ -1,0 +1,27 @@
+{
+  "movie": {
+    "tmdb_movie_id": 28
+  },
+  "release_year": 2019,
+  "publisher": "studio_canals",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "UHD",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "5055201842244",
+  "edition_tags": [
+    "final_cut"
+  ],
+  "notes": "4K Final Cut"
+}

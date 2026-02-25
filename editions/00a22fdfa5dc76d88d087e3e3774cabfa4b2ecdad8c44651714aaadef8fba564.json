@@ -1,0 +1,31 @@
+{
+  "movie": {
+    "tmdb_movie_id": 577922
+  },
+  "release_year": 2020,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "UHD",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "883929701858",
+  "notes": "UHD-only release",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "269861",
+      "url": "https://www.blu-ray.com/movies/Tenet-4K-Blu-ray/269861/"
+    }
+  ]
+}

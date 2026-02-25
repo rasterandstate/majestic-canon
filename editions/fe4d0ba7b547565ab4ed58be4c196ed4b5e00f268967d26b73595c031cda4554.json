@@ -1,0 +1,31 @@
+{
+  "movie": {
+    "tmdb_movie_id": 11645
+  },
+  "release_year": 2021,
+  "publisher": "lionsgate",
+  "packaging": {
+    "type": "steelbook"
+  },
+  "discs": [
+    {
+      "format": "UHD",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "031398329794",
+  "notes": "Best Buy Exclusive",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "296274",
+      "url": "https://www.blu-ray.com/movies/Ran-4K-Blu-ray/296274/"
+    }
+  ]
+}

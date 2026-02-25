@@ -1,0 +1,29 @@
+{
+  "movie": {
+    "tmdb_movie_id": 120
+  },
+  "release_year": 2012,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "065935586524",
+  "edition_tags": [
+    "extended"
+  ],
+  "notes": "Extended Edition",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "19929",
+      "url": "https://www.blu-ray.com/movies/The-Lord-of-the-Rings-The-Fellowship-of-the-Ring-Blu-ray/19929/"
+    }
+  ]
+}
