@@ -1,0 +1,16 @@
+{
+  "criterion": {
+    "label": "Criterion Collection (US Blu-ray spine line)",
+    "estimated_total": 1200,
+    "source": "official spine count",
+    "confidence": "high",
+    "scope": "US Blu-ray spine-numbered releases only"
+  },
+  "arrow": {
+    "label": "Arrow Video (UK Blu-ray)",
+    "estimated_total": 800,
+    "source": "official catalog listing",
+    "confidence": "medium",
+    "scope": "UK Blu-ray only"
+  }
+}

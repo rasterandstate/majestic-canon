@@ -4,5 +4,7 @@
   { "tag_id": "extended", "aliases": ["extended_cut"] },
   { "tag_id": "remaster_4k", "aliases": ["4k_remaster", "4k"] },
   { "tag_id": "criterion", "aliases": [] },
-  { "tag_id": "anniversary", "aliases": [] }
+  { "tag_id": "anniversary", "aliases": [] },
+  { "tag_id": "final_cut", "aliases": ["final cut"] },
+  { "tag_id": "3d", "aliases": ["3D"] }
 ]

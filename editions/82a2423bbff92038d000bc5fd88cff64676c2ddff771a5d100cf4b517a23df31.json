@@ -1,0 +1,27 @@
+{
+  "movie": {
+    "tmdb_movie_id": 28
+  },
+  "release_year": 2019,
+  "publisher": "lionsgate",
+  "packaging": {
+    "type": "digipak"
+  },
+  "discs": [
+    {
+      "format": "UHD",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "031398253273",
+  "edition_tags": [
+    "final_cut"
+  ],
+  "notes": "4K Final Cut"
+}

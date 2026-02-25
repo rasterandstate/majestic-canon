@@ -1,0 +1,34 @@
+{
+  "movie": {
+    "tmdb_movie_id": 490
+  },
+  "release_year": 2023,
+  "publisher": "criterion",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "UHD",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "715515282819",
+  "edition_tags": [
+    "remaster_4k"
+  ],
+  "notes": "Criterion release",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "331037",
+      "url": "https://www.blu-ray.com/movies/The-Seventh-Seal-4K-Blu-ray/331037/"
+    }
+  ]
+}
