@@ -25,6 +25,7 @@ Majestic is **collector-centric** and **packaging-accurate**. These decisions ar
 - Different UPCs = different SKUs = different editions to collectors.
 - Retailer-exclusive barcodes, packaging variants with distinct UPCs must be distinguishable.
 - If UPC is absent, identity derives without it. No migration pain for editions without UPC.
+- **Normalization:** trim; remove spaces and hyphens; digits-only; preserve leading zeros. Omit when empty after normalization.
 
 ### 2.2 Disc Languages
 **Disc languages are NOT identity-significant.**
@@ -72,14 +73,14 @@ A specific released product variant (e.g., UHD Steelbook, Criterion Blu-ray, Reg
 
 Core fields (identity-significant unless noted):
 - `movie` (MovieRef, required) — `tmdb_movie_id` participates in identity.
-- `release_year` (integer, required) — Year of this edition's release.
+- `release_year` (integer, required) — Year of first commercial release for that SKU, not reprint year.
 - `publisher` (string, required) — Normalized via publisher registry.
 - `packaging` (object, required)
   - `type` (enum: keepcase, steelbook, digipak, slipcover, boxset, other) — identity-significant
   - `notes` (string, optional, NOT identity-significant)
-- `upc` (string, optional) — **Identity-significant when present.** Different UPC = different edition.
-- `discs` (array, required; min 1) — Ordered as provided.
-- `edition_tags` (array, optional) — Identity-significant.
+- `upc` (string, optional) — **Identity-significant when present.** Normalized (digits-only, leading zeros preserved). Omitted when empty.
+- `discs` (array, required; min 1) — Ordered as provided. `disc_count > 1` means N identical discs (same format/region), not distinct discs.
+- `edition_tags` (array, optional) — Identity-significant. Normalized: lowercase, spaces/hyphens to underscores. Use tag registry (schema/edition_tags.json) for canonical vocabulary and aliases.
 - `notes` (string, optional, NOT identity-significant)
 - `external_refs` (array, optional, NOT identity-significant)
   - Format: `[{ "source": "blu-ray.com", "id": "390212", "url": "https://..." }]`
@@ -90,7 +91,7 @@ Core fields (identity-significant unless noted):
 Fields (identity-significant unless noted):
 - `format` (enum: UHD, BLURAY, DVD, CD, OTHER)
 - `disc_count` (integer, required)
-- `region` (optional) — Playback region. Omit for region-free.
+- `region` (optional) — Playback region. Omit = region-free or unspecified. Use `UNKNOWN` when curator researched but could not determine. Do not collapse unknown into region-free.
 - `languages` — NOT identity-significant (collector-level model).
 
 ### 3.3 Region Mapping
@@ -108,6 +109,23 @@ Publisher registry prevents spelling drift. Edition.publisher stored as `publish
 - Keys sorted lexicographically.
 - Arrays: sets sorted; ordered structures (discs) as provided.
 - Strings trimmed; enums in stable form.
+- **UPC:** Omitted from canonical JSON when empty/undefined after normalization; otherwise included as normalized digits-only string (leading zeros preserved).
+
+**Canonical shape example** (keys in lexicographic order; curators may model off this):
+
+```json
+{
+  "discs": [
+    { "disc_count": 1, "format": "UHD", "region": "REGION_FREE" }
+  ],
+  "edition_tags": ["director_cut"],
+  "movie": { "tmdb_movie_id": 123 },
+  "packaging": { "type": "steelbook" },
+  "publisher": "criterion",
+  "release_year": 2022,
+  "upc": "012345678905"
+}
+```
 
 ### 4.2 Hash Algorithm
 - Input: UTF-8 canonical JSON
@@ -142,3 +160,13 @@ Dimensions that may require v4+ if added later:
 - Structured packaging features
 
 Decide before ingesting large datasets. Migrations become political after scale.
+
+---
+
+## 7. Identity Redirects (Contract)
+
+- Canon publishes `identity_redirects.json` at repo root.
+- Maps old identity strings (edition:v1|v2|v3) to current (edition:v3).
+- **Clients** must resolve requested ID via redirects before returning 404.
+- Chains are flattened: all old IDs point directly to current.
+- Redirect resolution is non-identity-significant metadata.

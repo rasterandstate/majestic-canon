@@ -1,0 +1,8 @@
+[
+  { "tag_id": "director_cut", "aliases": ["directors_cut", "director's cut"] },
+  { "tag_id": "theatrical", "aliases": [] },
+  { "tag_id": "extended", "aliases": ["extended_cut"] },
+  { "tag_id": "remaster_4k", "aliases": ["4k_remaster", "4k"] },
+  { "tag_id": "criterion", "aliases": [] },
+  { "tag_id": "anniversary", "aliases": [] }
+]
