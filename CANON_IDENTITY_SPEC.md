@@ -163,7 +163,19 @@ Decide before ingesting large datasets. Migrations become political after scale.
 
 ---
 
-## 7. Identity Redirects (Contract)
+## 7. Edition Storage (File Persistence)
+
+**Edition identity is the primary key. Movie ID is a foreign key.**
+
+- Each edition file is keyed by identity hash: `editions/<sha256hex>.json`
+- Filename derives from `edition:v3:<hex>` → `<hex>.json`
+- Multiple editions per movie (region variants, packaging, UPC) are preserved as separate files
+- File overwrites occur only when identity matches (same hash)
+- Hash collision = real collision (structurally impossible with SHA-256 in practice)
+
+---
+
+## 8. Identity Redirects (Contract)
 
 - Canon publishes `identity_redirects.json` at repo root.
 - Maps old identity strings (edition:v1|v2|v3) to current (edition:v3).
