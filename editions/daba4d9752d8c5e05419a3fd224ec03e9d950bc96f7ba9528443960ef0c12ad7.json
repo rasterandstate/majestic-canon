@@ -1,0 +1,18 @@
+{
+  "movie": {
+    "tmdb_movie_id": 603
+  },
+  "release_year": 2008,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "notes": "US Blu-ray"
+}
