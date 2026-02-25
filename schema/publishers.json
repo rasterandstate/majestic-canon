@@ -140,5 +140,11 @@
     "display_name": "The Film Vault",
     "aliases": ["the film vault", "film vault"],
     "country": "UK"
+  },
+  {
+    "publisher_id": "anchor_bay",
+    "display_name": "Starz / Anchor Bay",
+    "aliases": ["anchor bay", "starz", "starz anchor bay", "anchor bay entertainment"],
+    "country": "USA"
   }
 ]
