@@ -1,0 +1,33 @@
+{
+  "movie": {
+    "tmdb_movie_id": 78
+  },
+  "release_year": 2024,
+  "publisher": "the_film_vault",
+  "packaging": {
+    "type": "steelbook"
+  },
+  "discs": [
+    {
+      "format": "UHD",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "4548967477450",
+  "edition_tags": [
+    "final_cut"
+  ],
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "359282",
+      "url": "https://www.blu-ray.com/movies/Blade-Runner-4K-Blu-ray/359282/"
+    }
+  ]
+}

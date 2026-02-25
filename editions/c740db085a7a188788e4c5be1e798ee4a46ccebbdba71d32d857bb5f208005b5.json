@@ -1,0 +1,34 @@
+{
+  "movie": {
+    "tmdb_movie_id": 348
+  },
+  "release_year": 2019,
+  "publisher": "fox",
+  "packaging": {
+    "type": "steelbook"
+  },
+  "discs": [
+    {
+      "format": "UHD",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "3344428142544",
+  "edition_tags": [
+    "anniversary"
+  ],
+  "notes": "Best Buy Exclusive / 40th Anniversary Steelbook",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "235265",
+      "url": "https://www.blu-ray.com/movies/Alien-4K-Blu-ray/235265/"
+    }
+  ]
+}

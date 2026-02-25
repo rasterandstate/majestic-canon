@@ -1,0 +1,30 @@
+{
+  "movie": {
+    "tmdb_movie_id": 76341
+  },
+  "release_year": 2024,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "steelbook"
+  },
+  "discs": [
+    {
+      "format": "UHD",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "5051888271032",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "359053",
+      "url": "https://www.blu-ray.com/movies/Mad-Max-Fury-Road-4K-Blu-ray/359053/"
+    }
+  ]
+}

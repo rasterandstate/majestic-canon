@@ -14,7 +14,7 @@
   {
     "publisher_id": "warner_bros",
     "display_name": "Warner Bros.",
-    "aliases": ["warner bros", "warner brothers", "warner bros.", "wb"],
+    "aliases": ["warner", "warner bros", "warner brothers", "warner bros.", "wb"],
     "country": "USA"
   },
   {
@@ -109,6 +109,36 @@
     "publisher_id": "88_films",
     "display_name": "88 Films",
     "aliases": ["88 films"],
+    "country": "UK"
+  },
+  {
+    "publisher_id": "fox",
+    "display_name": "20th Century Studios Home Entertainment",
+    "aliases": ["fox", "20th century fox", "20th century studios", "fox home entertainment"],
+    "country": "USA"
+  },
+  {
+    "publisher_id": "a24",
+    "display_name": "A24",
+    "aliases": ["a24"],
+    "country": "USA"
+  },
+  {
+    "publisher_id": "universal_uk",
+    "display_name": "Universal Pictures UK",
+    "aliases": ["universal uk", "universal pictures uk", "universal uk limited"],
+    "country": "UK"
+  },
+  {
+    "publisher_id": "spirit_entertainment",
+    "display_name": "Spirit Entertainment",
+    "aliases": ["spirit entertainment", "spirit"],
+    "country": "UK"
+  },
+  {
+    "publisher_id": "the_film_vault",
+    "display_name": "The Film Vault",
+    "aliases": ["the film vault", "film vault"],
     "country": "UK"
   }
 ]

@@ -1,0 +1,26 @@
+{
+  "movie": {
+    "tmdb_movie_id": 503919
+  },
+  "release_year": 2025,
+  "publisher": "spirit_entertainment",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "B"
+    }
+  ],
+  "upc": "5060952899720",
+  "notes": "UK Release",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "382245",
+      "url": "https://www.blu-ray.com/movies/The-Lighthouse-Blu-ray/382245/"
+    }
+  ]
+}

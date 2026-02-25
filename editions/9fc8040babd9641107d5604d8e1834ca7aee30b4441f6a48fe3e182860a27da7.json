@@ -1,0 +1,39 @@
+{
+  "movie": {
+    "tmdb_movie_id": 78
+  },
+  "release_year": 2017,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "UHD",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "DVD",
+      "disc_count": 2,
+      "region": "UNKNOWN"
+    }
+  ],
+  "upc": "0883929594382",
+  "edition_tags": [
+    "final_cut"
+  ],
+  "notes": "Final Cut",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "181637",
+      "url": "https://www.blu-ray.com/movies/Blade-Runner-4K-Blu-ray/181637/"
+    }
+  ]
+}

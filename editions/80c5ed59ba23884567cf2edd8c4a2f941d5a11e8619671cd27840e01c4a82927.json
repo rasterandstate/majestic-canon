@@ -1,0 +1,34 @@
+{
+  "movie": {
+    "tmdb_movie_id": 496243
+  },
+  "release_year": 2020,
+  "publisher": "criterion",
+  "packaging": {
+    "type": "digipak"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 2,
+      "region": "A"
+    }
+  ],
+  "upc": "0715515252614",
+  "edition_tags": [
+    "theatrical"
+  ],
+  "notes": "기생충 / Gisaengchung / Theatrical and B&W versions",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "263857",
+      "url": "https://www.blu-ray.com/movies/Parasite-Blu-ray/263857/"
+    },
+    {
+      "source": "criterion.com",
+      "id": "30619",
+      "url": "https://www.criterion.com/films/30619-parasite"
+    }
+  ]
+}

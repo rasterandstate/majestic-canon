@@ -1,0 +1,31 @@
+{
+  "movie": {
+    "tmdb_movie_id": 438631
+  },
+  "release_year": 2021,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "steelbook"
+  },
+  "discs": [
+    {
+      "format": "UHD",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "0883929813803",
+  "notes": "Limited Edition",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "359051",
+      "url": "https://www.blu-ray.com/movies/Dune-4K-Blu-ray/359051/"
+    }
+  ]
+}
