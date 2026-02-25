@@ -1,0 +1,19 @@
+{
+  "canonical": ["A", "B", "C", "ABC", "1", "2", "none", "FREE"],
+  "mappings": {
+    "a": "A",
+    "region a": "A",
+    "usa": "A",
+    "b": "B",
+    "region b": "B",
+    "uk": "B",
+    "c": "C",
+    "region c": "C",
+    "abc": "ABC",
+    "region free": "ABC",
+    "all": "ABC",
+    "region 0": "ABC",
+    "region 1": "1",
+    "region 2": "2"
+  }
+}

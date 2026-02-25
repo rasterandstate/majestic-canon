@@ -1,0 +1,14 @@
+[
+  {
+    "publisher_id": "criterion",
+    "display_name": "Criterion Collection",
+    "aliases": ["criterion", "the criterion collection"],
+    "country": "USA"
+  },
+  {
+    "publisher_id": "arrow",
+    "display_name": "Arrow Video",
+    "aliases": ["arrow", "arrow video"],
+    "country": "UK"
+  }
+]
