@@ -1,0 +1,36 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Lock files (use pnpm)
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# IDE
+.idea
+*.swp
+*.swo
+*~
+
+# Canon-specific: never commit signing keys or secrets
+*.pem
+*.key
+secrets/

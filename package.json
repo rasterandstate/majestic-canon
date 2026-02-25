@@ -1,0 +1,18 @@
+{
+  "name": "majestic-canon",
+  "version": "0.1.0",
+  "description": "Majestic Canonical Dataset — source of truth for edition identity, region mappings, publisher normalization",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "validate": "tsx scripts/validate.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^2.0.0"
+  }
+}

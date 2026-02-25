@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://majestic.canon/schema/v1",
+  "title": "Majestic Canon Schema",
+  "description": "Schema version and identity rules for the Majestic canonical dataset",
+  "version": 1,
+  "identityContract": {
+    "editionHashVersion": 1,
+    "editionHashAlgorithm": "sha256_edition_identity_v1",
+    "source": "majestic-identity-contract@1.0.0",
+    "note": "Identity rules are frozen in identity-contract. Canon documents schema; canon-tools consumes for pack generation."
+  },
+  "overridePrecedence": [
+    "explicit_override",
+    "publisher_normalization",
+    "region_mapping",
+    "default"
+  ]
+}
