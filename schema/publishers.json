@@ -1,7 +1,7 @@
 [
   {
     "publisher_id": "criterion",
-    "display_name": "Criterion Collection",
+    "display_name": "The Criterion Collection",
     "aliases": ["criterion", "the criterion collection"],
     "country": "USA"
   },
@@ -9,6 +9,94 @@
     "publisher_id": "arrow",
     "display_name": "Arrow Video",
     "aliases": ["arrow", "arrow video"],
+    "country": "UK"
+  },
+  {
+    "publisher_id": "warner_bros",
+    "display_name": "Warner Bros.",
+    "aliases": ["warner bros", "warner brothers", "warner bros.", "wb"],
+    "country": "USA"
+  },
+  {
+    "publisher_id": "universal",
+    "display_name": "Universal Pictures Home Entertainment",
+    "aliases": ["universal", "universal pictures", "universal home video"],
+    "country": "USA"
+  },
+  {
+    "publisher_id": "paramount",
+    "display_name": "Paramount Pictures",
+    "aliases": [
+      "paramount",
+      "paramount pictures",
+      "paramount home entertainment"
+    ],
+    "country": "USA"
+  },
+  {
+    "publisher_id": "sony",
+    "display_name": "Sony Pictures Home Entertainment",
+    "aliases": ["sony", "columbia", "columbia pictures", "sony pictures"],
+    "country": "USA"
+  },
+  {
+    "publisher_id": "disney",
+    "display_name": "Walt Disney Studios Home Entertainment",
+    "aliases": ["disney", "walt disney", "buena vista"],
+    "country": "USA"
+  },
+  {
+    "publisher_id": "lionsgate",
+    "display_name": "Lionsgate",
+    "aliases": ["lionsgate", "lions gate"],
+    "country": "USA"
+  },
+  {
+    "publisher_id": "shout_factory",
+    "display_name": "Shout! Factory",
+    "aliases": ["shout", "shout factory", "shout! factory"],
+    "country": "USA"
+  },
+  {
+    "publisher_id": "kino_lorber",
+    "display_name": "Kino Lorber",
+    "aliases": ["kino", "kino lorber"],
+    "country": "USA"
+  },
+  {
+    "publisher_id": "vinegar_syndrome",
+    "display_name": "Vinegar Syndrome",
+    "aliases": ["vinegar syndrome"],
+    "country": "USA"
+  },
+  {
+    "publisher_id": "second_sight",
+    "display_name": "Second Sight Films",
+    "aliases": ["second sight", "second sight films"],
+    "country": "UK"
+  },
+  {
+    "publisher_id": "eureka",
+    "display_name": "Eureka Entertainment",
+    "aliases": ["eureka", "masters of cinema", "eureka entertainment"],
+    "country": "UK"
+  },
+  {
+    "publisher_id": "bfi",
+    "display_name": "BFI",
+    "aliases": ["bfi", "british film institute"],
+    "country": "UK"
+  },
+  {
+    "publisher_id": "studio_canals",
+    "display_name": "StudioCanal",
+    "aliases": ["studiocanal", "studio canal"],
+    "country": "France"
+  },
+  {
+    "publisher_id": "88_films",
+    "display_name": "88 Films",
+    "aliases": ["88 films"],
     "country": "UK"
   }
 ]
