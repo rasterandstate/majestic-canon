@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "validate": "tsx scripts/validate.ts",
+    "sanity-check": "tsx scripts/sanity-check.ts",
     "test": "vitest run",
     "test:watch": "vitest"
   },
