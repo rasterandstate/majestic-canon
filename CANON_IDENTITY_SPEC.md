@@ -37,8 +37,6 @@ Core fields (identity-significant unless noted):
   - `tmdb_movie_id` participates in identity.
 - `release_year` (integer, required)  
   - The year of this edition's release, not the movie's release.
-- `region` (enum, required)  
-  - E.g., `A`, `B`, `C`, `ABC`, `1..8`, `FREE` (final set defined in schema).
 - `publisher` (string, required)  
   - Must be normalized via publisher registry (see 2.4).
 - `packaging` (object, required)  
@@ -63,7 +61,7 @@ Core fields (identity-significant unless noted):
 Fields (identity-significant unless noted):
 - `format` (enum: UHD, BLURAY, DVD, CD, OTHER)
 - `disc_count` (integer, required; usually 1 per entry, but may allow >1 for "identical discs" sets)
-- `video_regions` / `dvd_region` (optional, depending on format)
+- `region` (optional) — playback region (Blu-ray A/B/C, DVD 1–8, UHD often ABC). Omit for region-free.
 - `features` (array, optional; identity-significant only for defined feature flags)
 - `languages` (object, optional; identity-significant only if included in schema as identity-significant)
 
@@ -139,7 +137,7 @@ Identity must NOT change due to:
 - Adding, removing, or changing `external_refs`
 
 Identity MAY change only if:
-- An identity-significant field changes (e.g., region, publisher_id, release_year, packaging.type, identity-significant tags, disc structure)
+- An identity-significant field changes (e.g., disc.region, publisher_id, release_year, packaging.type, identity-significant tags, disc structure)
 
 ## 6. Governance Scope (Explicit Decision Point)
 

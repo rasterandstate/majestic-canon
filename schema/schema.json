@@ -5,8 +5,8 @@
   "description": "Schema version and identity rules for the Majestic canonical dataset",
   "version": 1,
   "identityContract": {
-    "editionHashVersion": 1,
-    "editionHashAlgorithm": "sha256_edition_identity_v1",
+    "editionHashVersion": 2,
+    "editionHashAlgorithm": "sha256_edition_identity_v2",
     "source": "majestic-identity-contract@1.0.0",
     "note": "Identity rules are frozen in identity-contract. Canon documents schema; canon-tools consumes for pack generation."
   },
