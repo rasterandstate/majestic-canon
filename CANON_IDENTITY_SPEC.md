@@ -178,6 +178,7 @@ Decide before ingesting large datasets. Migrations become political after scale.
 ## 8. Identity Redirects (Contract)
 
 - Canon publishes `identity_redirects.json` at repo root.
+- When an edition is updated and identity changes (e.g. region, UPC), the old hash is added to redirects pointing to the new hash. Clients resolve before 404.
 - Maps old identity strings (edition:v1|v2|v3) to current (edition:v3).
 - **Clients** must resolve requested ID via redirects before returning 404.
 - Chains are flattened: all old IDs point directly to current.
