@@ -58,6 +58,18 @@
     "country": "USA"
   },
   {
+    "publisher_id": "scream_factory",
+    "display_name": "Scream Factory",
+    "aliases": ["scream factory", "scream factory blu-ray"],
+    "country": "USA"
+  },
+  {
+    "publisher_id": "indicator",
+    "display_name": "Indicator (Powerhouse Films)",
+    "aliases": ["indicator", "powerhouse films", "indicator uk"],
+    "country": "UK"
+  },
+  {
     "publisher_id": "kino_lorber",
     "display_name": "Kino Lorber",
     "aliases": ["kino", "kino lorber"],

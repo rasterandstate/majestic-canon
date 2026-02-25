@@ -1,16 +1,30 @@
 {
   "criterion": {
-    "label": "Criterion Collection (US Blu-ray spine line)",
+    "label": "Criterion Collection (US spine-numbered physical editions)",
     "estimated_total": 1200,
-    "source": "official spine count",
+    "source": "official spine numbering",
     "confidence": "high",
-    "scope": "US Blu-ray spine-numbered releases only"
+    "scope": "US spine-numbered physical releases (DVD, Blu-ray, UHD)"
   },
   "arrow": {
-    "label": "Arrow Video (UK Blu-ray)",
+    "label": "Arrow Video (UK spine-numbered Blu-ray line)",
     "estimated_total": 800,
-    "source": "official catalog listing",
+    "source": "official catalog spine count",
     "confidence": "medium",
-    "scope": "UK Blu-ray only"
+    "scope": "UK spine-numbered Blu-ray releases only"
+  },
+  "indicator": {
+    "label": "Indicator (UK spine-numbered Blu-ray line)",
+    "estimated_total": 300,
+    "source": "official spine numbering",
+    "confidence": "medium",
+    "scope": "UK spine-numbered releases only"
+  },
+  "scream_factory": {
+    "label": "Scream Factory (numbered Blu-ray line)",
+    "estimated_total": 350,
+    "source": "official spine numbering",
+    "confidence": "medium",
+    "scope": "Numbered Scream Factory Blu-ray releases only"
   }
 }
