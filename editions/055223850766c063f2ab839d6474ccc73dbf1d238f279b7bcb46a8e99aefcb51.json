@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 4347
+  },
+  "release_year": 2026,
+  "publisher": "universal",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "0025192046162",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "8120",
+      "url": "https://www.blu-ray.com/movies/Atonement-Blu-ray/8120/"
+    }
+  ]
+}
