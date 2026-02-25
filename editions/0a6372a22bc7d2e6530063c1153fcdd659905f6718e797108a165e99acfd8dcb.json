@@ -23,5 +23,12 @@
   "edition_tags": [
     "final_cut"
   ],
-  "notes": "4K Final Cut"
+  "notes": "4K Final Cut",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "355919",
+      "url": "https://www.blu-ray.com/movies/Apocalypse-Now-FINAL-CUT-4K-Blu-ray/355919/"
+    }
+  ]
 }

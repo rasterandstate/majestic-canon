@@ -14,5 +14,13 @@
       "region": "A"
     }
   ],
-  "notes": "US Blu-ray"
+  "upc": "0883929085163",
+  "notes": "US Blu-ray",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "122301",
+      "url": "https://www.blu-ray.com/movies/The-Matrix-Blu-ray/122301/"
+    }
+  ]
 }

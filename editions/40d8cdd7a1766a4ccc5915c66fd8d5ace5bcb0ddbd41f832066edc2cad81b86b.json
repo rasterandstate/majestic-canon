@@ -14,5 +14,13 @@
       "region": "B"
     }
   ],
-  "notes": "UK Blu-ray"
+  "upc": "7321900115308",
+  "notes": "UK Blu-ray",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "3232",
+      "url": "https://www.blu-ray.com/movies/The-Matrix-Blu-ray/3232/"
+    }
+  ]
 }

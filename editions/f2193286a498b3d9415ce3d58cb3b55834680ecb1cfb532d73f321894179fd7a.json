@@ -20,5 +20,12 @@
     }
   ],
   "upc": "883929619924",
-  "notes": "Best Buy exclusive"
+  "notes": "Best Buy exclusive",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "195009",
+      "url": "https://www.blu-ray.com/movies/Blade-Runner-2049-4K-Blu-ray/195009/"
+    }
+  ]
 }
