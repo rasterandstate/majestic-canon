@@ -15,9 +15,47 @@ Identity must be:
 - Independent of file paths and media file naming
 - Stable under reordering and non-meaningful formatting changes
 
-## 2. Canon Entities (v1.1)
+## 2. Ontology Decisions (Frozen)
 
-### 2.1 MovieRef
+Majestic is **collector-centric** and **packaging-accurate**. These decisions are frozen before data entry.
+
+### 2.1 UPC
+**UPC participates in identity when present.**
+
+- Different UPCs = different SKUs = different editions to collectors.
+- Retailer-exclusive barcodes, packaging variants with distinct UPCs must be distinguishable.
+- If UPC is absent, identity derives without it. No migration pain for editions without UPC.
+
+### 2.2 Disc Languages
+**Disc languages are NOT identity-significant.**
+
+- Collector-level model: packaging, publisher, disc region, UPC define release.
+- Language data is unstable and increases curator burden.
+- Disc-content-level (languages, audio codecs, HDR) is a future fork; not v1.
+
+### 2.3 Packaging
+- `packaging.type` — identity-significant.
+- `packaging.notes` — NOT identity-significant by default.
+- **Future:** Structured packaging features (slipcover, embossed, numbered) preferred over freeform notes. See §2.2.2.
+
+### 2.4 Disc Order
+**Disc order is preserved as curated.**
+
+- Arrays are ordered as provided. No auto-sort by format.
+- Curator is responsible for canonical ordering. Swapping disc order changes identity.
+
+### 2.5 Box Sets
+**Future vNext:** Box sets containing multiple films require explicit definition:
+- Either separate editions per movie, or
+- A special multi-movie edition type.
+
+Current model: One Edition → one MovieRef. Multi-film box sets not yet modeled.
+
+---
+
+## 3. Canon Entities (v1.1)
+
+### 3.1 MovieRef
 A non-authoritative reference to the conceptual film.
 
 Fields:
@@ -29,131 +67,78 @@ Rules:
 - `tmdb_movie_id` is the canonical movie pointer.
 - `title` and `year` must never participate in identity hashing.
 
-### 2.2 Edition
+### 3.2 Edition
 A specific released product variant (e.g., UHD Steelbook, Criterion Blu-ray, Region B keepcase).
 
 Core fields (identity-significant unless noted):
-- `movie` (MovieRef, required)  
-  - `tmdb_movie_id` participates in identity.
-- `release_year` (integer, required)  
-  - The year of this edition's release, not the movie's release.
-- `publisher` (string, required)  
-  - Must be normalized via publisher registry (see 2.4).
-- `packaging` (object, required)  
-  - `type` (enum: keepcase, steelbook, digipak, slipcover, boxset, other)
-  - `notes` (string, optional, not identity-significant by default)
-- `upc` (string, optional)  
-  - Canon stores UPC when known but does not require it.
-- `discs` (array, required; min 1)  
-  - Multi-disc is first-class.
-- `edition_tags` (array of enum/string, optional)  
-  - Example: director_cut, theatrical, extended, remaster_4k, criterion, anniversary.
-  - Tags participate in identity only if explicitly defined as identity-significant tags in schema.
+- `movie` (MovieRef, required) — `tmdb_movie_id` participates in identity.
+- `release_year` (integer, required) — Year of this edition's release.
+- `publisher` (string, required) — Normalized via publisher registry.
+- `packaging` (object, required)
+  - `type` (enum: keepcase, steelbook, digipak, slipcover, boxset, other) — identity-significant
+  - `notes` (string, optional, NOT identity-significant)
+- `upc` (string, optional) — **Identity-significant when present.** Different UPC = different edition.
+- `discs` (array, required; min 1) — Ordered as provided.
+- `edition_tags` (array, optional) — Identity-significant.
 - `notes` (string, optional, NOT identity-significant)
-- `external_refs` (array, optional, NOT identity-significant)  
-  - Cross-reference pointers to external catalog entries (e.g., blu-ray.com).
+- `external_refs` (array, optional, NOT identity-significant)
   - Format: `[{ "source": "blu-ray.com", "id": "390212", "url": "https://..." }]`
-  - Do not participate in identity hash derivation. Do not use for uniqueness.
-  - If the external catalog changes URLs or disappears, canon identity is unaffected.
-  - **Payload serialization:** Must be sorted by `source` then `id` for deterministic canon.json. Keeps diffs clean when curators add refs in different orders.
+  - **Normalization:** `source` lowercase slug, `id` trimmed, `url` optional.
+  - Sorted by `source` then `id` for deterministic canon.json.
 
-#### 2.2.1 Disc
+#### 3.2.1 Disc
 Fields (identity-significant unless noted):
 - `format` (enum: UHD, BLURAY, DVD, CD, OTHER)
-- `disc_count` (integer, required; usually 1 per entry, but may allow >1 for "identical discs" sets)
-- `region` (optional) — playback region (Blu-ray A/B/C, DVD 1–8, UHD often ABC). Omit for region-free.
-- `features` (array, optional; identity-significant only for defined feature flags)
-- `languages` (object, optional; identity-significant only if included in schema as identity-significant)
+- `disc_count` (integer, required)
+- `region` (optional) — Playback region. Omit for region-free.
+- `languages` — NOT identity-significant (collector-level model).
 
-Rule of thumb:
-- Disc-level details should only be identity-significant if they are reliably known and stable for the edition.
+### 3.3 Region Mapping
+Canon contains a mapping table. Region strings normalized to canonical enum values.
 
-### 2.3 Region Mapping
-Canon contains a mapping table for interpreting region labels and equivalences used in packaging.
+### 3.4 Publisher Normalization
+Publisher registry prevents spelling drift. Edition.publisher stored as `publisher_id`.
 
-- Must normalize region strings into canonical enum values.
-- Region mapping data is identity-significant for any Edition referencing a region value.
-
-### 2.4 Publisher Normalization
-Canon must define a publisher registry to prevent spelling drift.
-
-Model:
-- `publisher_id` (string, stable slug)
-- `display_name` (string)
-- `aliases` (array of string)
-- `country` (optional)
-- `notes` (optional, NOT identity-significant)
-
-Edition.publisher is stored as `publisher_id` in canonical form.
-
-## 3. TMDB and UPC Semantics
-
-### TMDB
-- `tmdb_movie_id` is required for every Edition.
-- TMDB is a reference system; changes in TMDB metadata must not change edition identity.
-
-### UPC
-- UPC is optional and may be absent for:
-  - Region variants without known UPC
-  - Boutique releases without consistent UPC data
-  - Historical/obscure editions
-
-Rules:
-- If UPC is present, it participates in identity only if schema designates it identity-significant.
-- Default recommendation: UPC does NOT participate in identity by default, because UPCs can be reused across packaging variants, or be missing in many cases.
-- If later governance decides UPC must be identity-significant for certain product types, that must be an explicit schema change and migration.
+---
 
 ## 4. Identity Hash Derivation
 
 ### 4.1 Canonicalization
-Identity is derived from a canonical JSON representation of the Edition:
-- Only identity-significant fields included. Explicitly exclude: `notes`, `external_refs`, and any field marked NOT identity-significant.
-- All objects have keys sorted lexicographically.
-- Arrays:
-  - Arrays representing sets (e.g., tags) must be sorted.
-  - Arrays representing ordered structures (e.g., discs) are ordered as provided and must be stable.
-- Strings trimmed; normalization rules applied:
-  - Publisher stored as `publisher_id`
-  - Region stored as canonical enum
-  - Enums serialized in stable uppercase form
+- Only identity-significant fields included.
+- Keys sorted lexicographically.
+- Arrays: sets sorted; ordered structures (discs) as provided.
+- Strings trimmed; enums in stable form.
 
 ### 4.2 Hash Algorithm
-- Hash input: UTF-8 bytes of canonical JSON
-- Hash: SHA-256
-- Output: lowercase hex
-- Identity string: `edition:v1:<sha256hex>`
+- Input: UTF-8 canonical JSON
+- Hash: SHA-256, lowercase hex
+- Identity string: `edition:v3:<sha256hex>`
 
-Versioning:
-- The `v1` in the identity prefix is the identity schema version, not the JSON schema version.
-- Changing identity-significant rules requires a new identity version (e.g., v2) and migration story.
+Version history:
+- v1: edition.region in identity
+- v2: region moved to disc
+- v3: UPC in identity when present
+
+---
 
 ## 5. Stability Rules
 
 Identity must NOT change due to:
-- Field reordering
-- Whitespace or formatting
-- Adding non-identity-significant notes
-- Updating display names or aliases
-- Adding, removing, or changing `external_refs`
+- Field reordering, whitespace, formatting
+- Non-identity notes, external_refs, display names
 
 Identity MAY change only if:
-- An identity-significant field changes (e.g., disc.region, publisher_id, release_year, packaging.type, identity-significant tags, disc structure)
+- Identity-significant field changes (publisher, release_year, packaging.type, upc, disc structure, edition_tags)
 
-## 6. Governance Scope (Explicit Decision Point)
+---
 
-Canon may eventually include:
-- Pure metadata (editions, publishers, regions) only
-OR
-- Governance data such as approved match corrections
+## 6. Future Surface Area (Deferred)
 
-This decision affects:
-- Pack contents (data types, delta strategy)
-- Migration policies
-- Client update expectations
+Dimensions that may require v4+ if added later:
+- Slipcover present/absent
+- Limited edition numbering
+- Retailer exclusives
+- 3D vs 2D, Dolby Vision vs HDR10, IMAX Enhanced
+- Structured packaging features
 
-Canon must not include governance data until this decision is made and versioning/migration rules are defined.
-
-## 7. Non-Goals (for v1.x)
-- Media-file matching heuristics
-- Server-side file fingerprinting logic
-- Any behavior that silently mutates user libraries
+Decide before ingesting large datasets. Migrations become political after scale.
