@@ -52,6 +52,11 @@ Core fields (identity-significant unless noted):
   - Example: director_cut, theatrical, extended, remaster_4k, criterion, anniversary.
   - Tags participate in identity only if explicitly defined as identity-significant tags in schema.
 - `notes` (string, optional, NOT identity-significant)
+- `external_refs` (array, optional, NOT identity-significant)  
+  - Cross-reference pointers to external catalog entries (e.g., blu-ray.com).
+  - Format: `[{ "source": "blu-ray.com", "id": "390212", "url": "https://..." }]`
+  - Do not participate in identity hash derivation. Do not use for uniqueness.
+  - If the external catalog changes URLs or disappears, canon identity is unaffected.
 
 #### 2.2.1 Disc
 Fields (identity-significant unless noted):
@@ -103,7 +108,7 @@ Rules:
 
 ### 4.1 Canonicalization
 Identity is derived from a canonical JSON representation of the Edition:
-- Only identity-significant fields included.
+- Only identity-significant fields included. Explicitly exclude: `notes`, `external_refs`, and any field marked NOT identity-significant.
 - All objects have keys sorted lexicographically.
 - Arrays:
   - Arrays representing sets (e.g., tags) must be sorted.
@@ -130,6 +135,7 @@ Identity must NOT change due to:
 - Whitespace or formatting
 - Adding non-identity-significant notes
 - Updating display names or aliases
+- Adding, removing, or changing `external_refs`
 
 Identity MAY change only if:
 - An identity-significant field changes (e.g., region, publisher_id, release_year, packaging.type, identity-significant tags, disc structure)
