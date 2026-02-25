@@ -57,6 +57,7 @@ Core fields (identity-significant unless noted):
   - Format: `[{ "source": "blu-ray.com", "id": "390212", "url": "https://..." }]`
   - Do not participate in identity hash derivation. Do not use for uniqueness.
   - If the external catalog changes URLs or disappears, canon identity is unaffected.
+  - **Payload serialization:** Must be sorted by `source` then `id` for deterministic canon.json. Keeps diffs clean when curators add refs in different orders.
 
 #### 2.2.1 Disc
 Fields (identity-significant unless noted):
