@@ -36,6 +36,10 @@ This is Layer 1 of three: curation layer. Build and distribution are separate. S
 /tests          # Validation tests
 ```
 
+## Specs (freeze before curated data)
+
+- **[CANON_IDENTITY_SPEC.md](./CANON_IDENTITY_SPEC.md)** — Edition identity semantics, canonicalization, hash derivation
+
 ## License
 
 Custom Majestic Canon License — source-available, non-commercial. See [LICENSE](./LICENSE).
