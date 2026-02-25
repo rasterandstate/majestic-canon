@@ -1,0 +1,24 @@
+{
+  "movie": {
+    "tmdb_movie_id": 335984
+  },
+  "release_year": 2018,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "UHD",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "883929571857",
+  "notes": "Standard 4K combo"
+}
