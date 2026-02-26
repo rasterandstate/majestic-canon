@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 70981
+  },
+  "release_year": 2015,
+  "publisher": "fox",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "024543814078",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "143008",
+      "url": "https://www.blu-ray.com/movies/Prometheus-Blu-ray/143008/"
+    }
+  ]
+}
