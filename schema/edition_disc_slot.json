@@ -56,6 +56,10 @@
         "last_verified_at": {
           "type": "string",
           "description": "ISO timestamp of last physical verification (idempotent re-fingerprint)"
+        },
+        "verification_count": {
+          "type": "integer",
+          "description": "Number of successful idempotent verifications. Enables trust scoring and disc stability metrics."
         }
       }
     },
@@ -94,6 +98,9 @@
         },
         "last_verified_at": {
           "type": "string"
+        },
+        "verification_count": {
+          "type": "integer"
         }
       }
     },
