@@ -1,9 +1,8 @@
 {
   "company_prefix": "0720917",
-  "company_name": "Spirit Entertainment Ltd",
   "brand_name": "Spirit Entertainment",
-  "publisher_id": "spirit_entertainment",
   "verified": true,
   "gs1_status": "active",
-  "source": "gs1"
+  "source": "gs1",
+  "gs1_registrant_name": "Spirit Entertainment Ltd"
 }

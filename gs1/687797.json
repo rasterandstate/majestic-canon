@@ -1,11 +1,10 @@
 {
   "company_prefix": "687797",
-  "company_name": "First Look Studios",
   "brand_name": "First Look Studios",
-  "publisher_id": "first_look_studios",
   "verified": true,
   "gs1_status": "inactive",
   "source": "gs1",
   "first_seen": "2026-02-26T00:00:00Z",
-  "valid_to": "2010-01-01"
+  "valid_to": "2010-01-01",
+  "gs1_registrant_name": "First Look Studios"
 }

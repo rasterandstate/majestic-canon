@@ -1,11 +1,10 @@
 {
   "company_prefix": "0025192",
-  "company_name": "Universal Home Video, Inc.",
   "brand_name": "Universal Studios Home Entertainment",
-  "publisher_id": "universal",
   "verified": true,
   "gs1_status": "active",
   "source": "gs1",
   "first_seen": "2026-02-26T00:00:00Z",
-  "valid_to": null
+  "valid_to": null,
+  "gs1_registrant_name": "Universal Home Video, Inc."
 }

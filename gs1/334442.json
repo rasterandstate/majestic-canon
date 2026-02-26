@@ -1,12 +1,11 @@
 {
   "company_prefix": "334442",
-  "company_name": "Twentieth Century Fox Home Entertainment",
   "brand_name": "20th Century Fox Home Entertainment",
-  "publisher_id": "fox",
   "verified": true,
   "gs1_status": "inactive",
   "source": "gs1",
   "first_seen": "2026-02-26T00:00:00Z",
   "valid_from": "1990",
-  "valid_to": null
+  "valid_to": null,
+  "gs1_registrant_name": "Twentieth Century Fox Home Entertainment"
 }

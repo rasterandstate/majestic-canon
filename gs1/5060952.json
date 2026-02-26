@@ -1,9 +1,8 @@
 {
   "company_prefix": "5060952",
-  "company_name": "The Film Vault",
   "brand_name": "The Film Vault",
-  "publisher_id": "the_film_vault",
   "verified": true,
   "gs1_status": "active",
-  "source": "gs1"
+  "source": "gs1",
+  "gs1_registrant_name": "The Film Vault"
 }

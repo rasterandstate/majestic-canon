@@ -1,11 +1,10 @@
 {
   "company_prefix": "812491",
-  "company_name": "Well Go USA Entertainment",
   "brand_name": "Well Go USA",
-  "publisher_id": "well_go",
   "verified": true,
   "gs1_status": "active",
   "source": "gs1",
   "first_seen": "2026-02-26T00:00:00Z",
-  "valid_to": null
+  "valid_to": null,
+  "gs1_registrant_name": "Well Go USA Entertainment"
 }

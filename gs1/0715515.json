@@ -1,11 +1,10 @@
 {
   "company_prefix": "0715515",
-  "company_name": "The Voyager Company",
   "brand_name": "The Criterion Collection",
-  "publisher_id": "criterion",
   "verified": true,
   "source": "gs1",
   "first_seen": "2026-02-26T00:00:00Z",
   "valid_from": "1990",
-  "valid_to": null
+  "valid_to": null,
+  "gs1_registrant_name": "The Voyager Company"
 }

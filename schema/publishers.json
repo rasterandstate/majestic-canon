@@ -3,8 +3,7 @@
     "publisher_id": "criterion",
     "display_name": "The Criterion Collection",
     "aliases": ["criterion", "the criterion collection"],
-    "country": "USA",
-    "gs1_prefixes": ["0715515"]
+    "country": "USA"
   },
   {
     "publisher_id": "arrow",
@@ -122,8 +121,7 @@
     "publisher_id": "fox",
     "display_name": "20th Century Studios Home Entertainment",
     "aliases": ["fox", "20th century fox", "20th century studios", "fox home entertainment"],
-    "country": "USA",
-    "gs1_prefixes": ["334442"]
+    "country": "USA"
   },
   {
     "publisher_id": "first_look_studios",
@@ -159,7 +157,6 @@
     "publisher_id": "anchor_bay",
     "display_name": "Starz / Anchor Bay",
     "aliases": ["anchor bay", "starz", "starz anchor bay", "anchor bay entertainment"],
-    "country": "USA",
-    "gs1_prefixes": ["0013132"]
+    "country": "USA"
   }
 ]

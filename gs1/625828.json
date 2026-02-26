@@ -1,11 +1,10 @@
 {
   "company_prefix": "625828",
-  "company_name": "Spirit Entertainment Ltd.",
   "brand_name": "Spirit Entertainment",
-  "publisher_id": "spirit_entertainment",
   "verified": true,
   "gs1_status": "active",
   "source": "gs1",
   "first_seen": "2026-02-26T00:00:00Z",
-  "valid_to": null
+  "valid_to": null,
+  "gs1_registrant_name": "Spirit Entertainment Ltd."
 }

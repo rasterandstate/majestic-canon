@@ -1,11 +1,10 @@
 {
   "company_prefix": "704400",
-  "company_name": "Funimation Productions, LLC",
   "brand_name": "Funimation",
-  "publisher_id": "funimation",
   "verified": true,
   "gs1_status": "inactive",
   "source": "gs1",
   "first_seen": "2026-02-26T00:00:00Z",
-  "valid_to": "2022-03-01"
+  "valid_to": "2022-03-01",
+  "gs1_registrant_name": "Funimation Productions, LLC"
 }

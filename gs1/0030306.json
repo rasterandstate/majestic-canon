@@ -1,9 +1,8 @@
 {
   "company_prefix": "0030306",
-  "company_name": "First Look Studios",
   "brand_name": "First Look Studios",
-  "publisher_id": "first_look_studios",
   "verified": true,
   "gs1_status": "legacy",
-  "source": "gs1"
+  "source": "gs1",
+  "gs1_registrant_name": "First Look Studios"
 }
