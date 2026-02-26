@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 30497
+  },
+  "release_year": 2018,
+  "publisher": "mpi_media_group",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "0030306199696",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "203115",
+      "url": "https://www.blu-ray.com/movies/The-Texas-Chain-Saw-Massacre-Blu-ray/203115/"
+    }
+  ]
+}

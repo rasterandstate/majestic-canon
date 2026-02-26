@@ -76,6 +76,12 @@
     "country": "USA"
   },
   {
+    "publisher_id": "mpi_media_group",
+    "display_name": "MPI Media Group",
+    "aliases": ["mpi", "mpi media group", "mpi home video", "mpi media"],
+    "country": "USA"
+  },
+  {
     "publisher_id": "vinegar_syndrome",
     "display_name": "Vinegar Syndrome",
     "aliases": ["vinegar syndrome"],
