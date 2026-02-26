@@ -16,7 +16,28 @@
     {
       "format": "DVD",
       "disc_count": 1,
-      "region": "UNKNOWN"
+      "region": "UNKNOWN",
+      "disc_type": "dvd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.dvd",
+        "structural_hash": "f2c3d34804c140bd50f45393ec986bd7329167d419f9f6607d1f345911f242e0",
+        "cas_hash": "1dc1313096d42031c12ab778cf670366b0f103ec27da4f9b2aaac3cb9c861daa",
+        "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-26T21:18:32.301Z",
+        "fingerprinted_at": "2026-02-26T21:18:32.301Z"
+      },
+      "fingerprint_history": [
+        {
+          "type": "majestic.optical-disc.dvd",
+          "version": 1,
+          "structural_hash": "f2c3d34804c140bd50f45393ec986bd7329167d419f9f6607d1f345911f242e0",
+          "cas_hash": "1dc1313096d42031c12ab778cf670366b0f103ec27da4f9b2aaac3cb9c861daa",
+          "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
+          "fingerprinted_at": "2026-02-26T21:18:32.301Z",
+          "reason": "overwrite"
+        }
+      ]
     }
   ],
   "upc": "025192287985",
