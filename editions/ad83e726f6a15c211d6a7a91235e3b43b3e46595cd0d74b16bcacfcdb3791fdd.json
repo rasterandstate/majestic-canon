@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 24
+  },
+  "release_year": 2008,
+  "publisher": "disney",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "031398134329",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "38",
+      "url": "https://www.blu-ray.com/movies/Kill-Bill-Volume-1-Blu-ray/38/"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 393
+  },
+  "release_year": 2008,
+  "publisher": "disney",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "031398134336",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "945",
+      "url": "https://www.blu-ray.com/movies/Kill-Bill-Volume-2-Blu-ray/945/"
+    }
+  ]
+}
