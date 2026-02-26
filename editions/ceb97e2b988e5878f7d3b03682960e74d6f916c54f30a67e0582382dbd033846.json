@@ -11,12 +11,32 @@
     {
       "format": "UHD",
       "disc_count": 1,
-      "region": "FREE"
+      "region": "FREE",
+      "disc_type": "uhd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.uhd",
+        "structural_hash": "2dbb5a9a2e4a60541b2b99cae61a2b16cf513fb9fb976e56e937a254c15af15b",
+        "cas_hash": "52fdf81c13157299e7d90d00c2a93b166e40853c926a87da26f20e89db71102d",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-26T22:02:56.999Z",
+        "fingerprinted_at": "2026-02-26T22:02:56.999Z"
+      }
     },
     {
       "format": "BLURAY",
       "disc_count": 1,
-      "region": "A"
+      "region": "A",
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "ce00d127fee5d03bc7ff7a3104ec7a6adc16e9ae1b6c99d9f2cf7aa764ccc116",
+        "cas_hash": "1dbda84211911aaac488a8ca8ae59d57be03906d7390e8698edad643391d21d1",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-26T21:57:15.094Z",
+        "fingerprinted_at": "2026-02-26T21:57:15.094Z"
+      }
     }
   ],
   "upc": "043396581609",
