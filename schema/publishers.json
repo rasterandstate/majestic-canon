@@ -20,7 +20,7 @@
   {
     "publisher_id": "universal",
     "display_name": "Universal Pictures Home Entertainment",
-    "aliases": ["universal", "universal pictures", "universal home video"],
+    "aliases": ["universal", "universal pictures", "universal home video", "universal studios"],
     "country": "USA"
   },
   {
@@ -72,7 +72,7 @@
   {
     "publisher_id": "kino_lorber",
     "display_name": "Kino Lorber",
-    "aliases": ["kino", "kino lorber"],
+    "aliases": ["kino", "kino lorber", "fox lorber"],
     "country": "USA"
   },
   {

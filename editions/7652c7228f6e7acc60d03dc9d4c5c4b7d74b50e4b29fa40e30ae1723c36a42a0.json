@@ -1,0 +1,30 @@
+{
+  "movie": {
+    "tmdb_movie_id": 147
+  },
+  "release_year": 2014,
+  "publisher": "criterion",
+  "packaging": {
+    "type": "digipak"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    },
+    {
+      "format": "DVD",
+      "disc_count": 1,
+      "region": "UNKNOWN"
+    }
+  ],
+  "upc": "0715515114318",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "94588",
+      "url": "https://www.blu-ray.com/movies/The-400-Blows-Blu-ray/94588/"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 1018
+  },
+  "release_year": 2002,
+  "publisher": "universal",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "DVD",
+      "disc_count": 1,
+      "region": "1"
+    }
+  ],
+  "upc": "0025192178023",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "63341",
+      "url": "https://www.blu-ray.com/dvd/Mulholland-Drive-DVD/63341/"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "movie": {
+    "tmdb_movie_id": 1018
+  },
+  "release_year": 2021,
+  "publisher": "criterion",
+  "packaging": {
+    "type": "digipak"
+  },
+  "discs": [
+    {
+      "format": "UHD",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "715515265812",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "297991",
+      "url": "https://www.blu-ray.com/movies/Mulholland-Drive-4K-Blu-ray/297991/"
+    }
+  ]
+}

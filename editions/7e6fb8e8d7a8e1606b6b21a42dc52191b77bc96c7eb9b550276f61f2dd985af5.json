@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 346
+  },
+  "release_year": 2010,
+  "publisher": "criterion",
+  "packaging": {
+    "type": "digipak"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 2,
+      "region": "A"
+    }
+  ],
+  "upc": "0715515054911",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "7737",
+      "url": "https://www.blu-ray.com/movies/Seven-Samurai-Blu-ray/7737/"
+    }
+  ]
+}

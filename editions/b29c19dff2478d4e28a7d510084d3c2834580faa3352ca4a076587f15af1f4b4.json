@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 1018
+  },
+  "release_year": 2015,
+  "publisher": "criterion",
+  "packaging": {
+    "type": "digipak"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "715515159319",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "68150",
+      "url": "https://www.blu-ray.com/movies/Mulholland-Drive-Blu-ray/68150/"
+    }
+  ]
+}
