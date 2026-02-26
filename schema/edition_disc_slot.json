@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://majestic.canon/schema/edition-disc-slot",
+  "title": "Edition Disc Slot",
+  "description": "Single disc slot in edition.discs[index]",
+  "type": "object",
+  "properties": {
+    "format": { "type": "string", "description": "BLURAY, DVD, UHD, OTHER" },
+    "region": { "type": "string" },
+    "role": { "type": "string" },
+    "disc_type": {
+      "type": "string",
+      "enum": ["dvd", "bluray", "uhd"],
+      "description": "From fingerprint identity.type only. Never inferred from format."
+    },
+    "disc_count": { "type": "number", "default": 1 },
+    "disc_identity": {
+      "type": "object",
+      "properties": {
+        "structural_hash": { "type": "string" },
+        "cas_hash": { "type": "string" },
+        "hash_algorithm": { "type": "string" },
+        "version": { "type": "number" },
+        "generated_at": { "type": "string" },
+        "fingerprinted_at": { "type": "string" }
+      }
+    }
+  }
+}
