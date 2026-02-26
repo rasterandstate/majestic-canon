@@ -5,30 +5,65 @@
   "description": "Single disc slot in edition.discs[index]",
   "type": "object",
   "properties": {
-    "format": { "type": "string", "description": "BLURAY, DVD, UHD, OTHER" },
-    "region": { "type": "string" },
-    "role": { "type": "string" },
+    "format": {
+      "type": "string",
+      "description": "BLURAY, DVD, UHD, OTHER"
+    },
+    "region": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
     "disc_type": {
       "type": "string",
-      "enum": ["dvd", "bluray", "uhd"],
+      "enum": [
+        "dvd",
+        "bluray",
+        "uhd"
+      ],
       "description": "From fingerprint identity.type only. Never inferred from format."
     },
-    "disc_count": { "type": "number", "default": 1 },
+    "disc_count": {
+      "type": "number",
+      "default": 1
+    },
     "disc_identity": {
       "type": "object",
       "properties": {
-        "type": { "type": "string", "description": "Identity type from fingerprint (e.g. majestic.optical-disc.dvd)" },
-        "structural_hash": { "type": "string" },
-        "cas_hash": { "type": "string" },
-        "hash_algorithm": { "type": "string" },
-        "version": { "type": "number" },
-        "generated_at": { "type": "string" },
-        "fingerprinted_at": { "type": "string" }
+        "type": {
+          "type": "string",
+          "description": "Identity type from fingerprint (e.g. majestic.optical-disc.dvd)"
+        },
+        "structural_hash": {
+          "type": "string"
+        },
+        "cas_hash": {
+          "type": "string"
+        },
+        "hash_algorithm": {
+          "type": "string"
+        },
+        "version": {
+          "type": "number"
+        },
+        "generated_at": {
+          "type": "string"
+        },
+        "fingerprinted_at": {
+          "type": "string"
+        },
+        "last_verified_at": {
+          "type": "string",
+          "description": "ISO timestamp of last physical verification (idempotent re-fingerprint)"
+        }
       }
     },
     "fingerprint_history": {
       "type": "array",
-      "items": { "$ref": "#/$defs/fingerprint_history_entry" },
+      "items": {
+        "$ref": "#/$defs/fingerprint_history_entry"
+      },
       "description": "Previous fingerprints when overwritten. Full provenance. Do not lose historical fingerprints."
     }
   },
@@ -36,28 +71,67 @@
     "disc_identity": {
       "type": "object",
       "properties": {
-        "type": { "type": "string" },
-        "structural_hash": { "type": "string" },
-        "cas_hash": { "type": "string" },
-        "hash_algorithm": { "type": "string" },
-        "version": { "type": "number" },
-        "generated_at": { "type": "string" },
-        "fingerprinted_at": { "type": "string" }
+        "type": {
+          "type": "string"
+        },
+        "structural_hash": {
+          "type": "string"
+        },
+        "cas_hash": {
+          "type": "string"
+        },
+        "hash_algorithm": {
+          "type": "string"
+        },
+        "version": {
+          "type": "number"
+        },
+        "generated_at": {
+          "type": "string"
+        },
+        "fingerprinted_at": {
+          "type": "string"
+        },
+        "last_verified_at": {
+          "type": "string"
+        }
       }
     },
     "fingerprint_history_entry": {
       "type": "object",
-      "required": ["structural_hash", "cas_hash", "hash_algorithm", "fingerprinted_at", "reason"],
+      "required": [
+        "structural_hash",
+        "cas_hash",
+        "hash_algorithm",
+        "fingerprinted_at",
+        "reason"
+      ],
       "properties": {
-        "type": { "type": "string" },
-        "version": { "type": "number" },
-        "structural_hash": { "type": "string" },
-        "cas_hash": { "type": "string" },
-        "hash_algorithm": { "type": "string" },
-        "fingerprinted_at": { "type": "string" },
+        "type": {
+          "type": "string"
+        },
+        "version": {
+          "type": "number"
+        },
+        "structural_hash": {
+          "type": "string"
+        },
+        "cas_hash": {
+          "type": "string"
+        },
+        "hash_algorithm": {
+          "type": "string"
+        },
+        "fingerprinted_at": {
+          "type": "string"
+        },
         "reason": {
           "type": "string",
-          "enum": ["overwrite", "algorithm_upgrade", "manual_correction"]
+          "enum": [
+            "overwrite",
+            "algorithm_upgrade",
+            "manual_correction"
+          ]
         }
       }
     }
