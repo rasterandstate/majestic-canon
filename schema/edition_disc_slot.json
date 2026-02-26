@@ -69,6 +69,13 @@
         "$ref": "#/$defs/fingerprint_history_entry"
       },
       "description": "Previous fingerprints when overwritten. Full provenance. Do not lose historical fingerprints."
+    },
+    "region_history": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/region_history_entry"
+      },
+      "description": "Previous region values when corrected by fingerprint. Disc is authoritative."
     }
   },
   "$defs": {
@@ -140,6 +147,16 @@
             "manual_correction"
           ]
         }
+      }
+    },
+    "region_history_entry": {
+      "type": "object",
+      "required": ["previous", "corrected_to", "corrected_at", "reason"],
+      "properties": {
+        "previous": { "type": "string" },
+        "corrected_to": { "type": "string" },
+        "corrected_at": { "type": "string", "description": "ISO timestamp" },
+        "reason": { "type": "string", "enum": ["fingerprint"] }
       }
     }
   }
