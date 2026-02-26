@@ -1,0 +1,62 @@
+[
+  {
+    "studio_id": "warner_bros_pictures",
+    "display_name": "Warner Bros. Pictures",
+    "aliases": ["Warner Bros", "Warner Bros Pictures"]
+  },
+  {
+    "studio_id": "universal_pictures",
+    "display_name": "Universal Pictures",
+    "aliases": ["Universal", "Universal Pictures"]
+  },
+  {
+    "studio_id": "paramount_pictures",
+    "display_name": "Paramount Pictures",
+    "aliases": ["Paramount", "Paramount Pictures"]
+  },
+  {
+    "studio_id": "sony_pictures",
+    "display_name": "Sony Pictures",
+    "aliases": ["Sony", "Columbia Pictures", "Sony Pictures"]
+  },
+  {
+    "studio_id": "disney",
+    "display_name": "Walt Disney Pictures",
+    "aliases": ["Disney", "Walt Disney", "Buena Vista"]
+  },
+  {
+    "studio_id": "20th_century_studios",
+    "display_name": "20th Century Studios",
+    "aliases": ["20th Century Fox", "Fox", "20th Century Studios"]
+  },
+  {
+    "studio_id": "lionsgate",
+    "display_name": "Lionsgate",
+    "aliases": ["Lionsgate", "Lions Gate"]
+  },
+  {
+    "studio_id": "a24",
+    "display_name": "A24",
+    "aliases": ["A24"]
+  },
+  {
+    "studio_id": "miramax",
+    "display_name": "Miramax",
+    "aliases": ["Miramax"]
+  },
+  {
+    "studio_id": "new_line",
+    "display_name": "New Line Cinema",
+    "aliases": ["New Line", "New Line Cinema"]
+  },
+  {
+    "studio_id": "dreamworks",
+    "display_name": "DreamWorks Pictures",
+    "aliases": ["DreamWorks", "DreamWorks Pictures"]
+  },
+  {
+    "studio_id": "mgm",
+    "display_name": "Metro-Goldwyn-Mayer",
+    "aliases": ["MGM", "Metro-Goldwyn-Mayer"]
+  }
+]
