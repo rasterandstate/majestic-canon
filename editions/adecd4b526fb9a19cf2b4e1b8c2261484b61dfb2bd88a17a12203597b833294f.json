@@ -1,0 +1,37 @@
+{
+  "movie": {
+    "tmdb_movie_id": 68718
+  },
+  "release_year": 2014,
+  "publisher": "anchor_bay",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "013132624198",
+  "barcode": {
+    "gs1": {
+      "prefix": "0013132",
+      "verified": true
+    },
+    "upc": "013132624198"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "118147",
+      "url": "https://www.blu-ray.com/movies/Django-Unchained-Blu-ray/118147/"
+    },
+    {
+      "source": "wikipedia.org",
+      "id": "Django_Unchained",
+      "url": "https://en.wikipedia.org/wiki/Django_Unchained"
+    }
+  ]
+}
