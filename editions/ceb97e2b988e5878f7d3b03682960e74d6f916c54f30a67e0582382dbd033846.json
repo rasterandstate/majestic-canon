@@ -1,0 +1,30 @@
+{
+  "movie": {
+    "tmdb_movie_id": 569094
+  },
+  "release_year": 2023,
+  "publisher": "sony",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "UHD",
+      "disc_count": 1,
+      "region": "FREE"
+    },
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "043396581609",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "339262",
+      "url": "https://www.blu-ray.com/movies/Spider-Man-Across-the-Spider-Verse-4K-Blu-ray/339262/"
+    }
+  ]
+}
