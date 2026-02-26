@@ -24,6 +24,23 @@
         "generated_at": { "type": "string" },
         "fingerprinted_at": { "type": "string" }
       }
+    },
+    "fingerprint_history": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/disc_identity" },
+      "description": "Previous fingerprints when overwritten. Do not lose historical fingerprints."
+    }
+  },
+  "$defs": {
+    "disc_identity": {
+      "type": "object",
+      "properties": {
+        "structural_hash": { "type": "string" },
+        "cas_hash": { "type": "string" },
+        "hash_algorithm": { "type": "string" },
+        "version": { "type": "number" },
+        "generated_at": { "type": "string" }
+      }
     }
   }
 }
