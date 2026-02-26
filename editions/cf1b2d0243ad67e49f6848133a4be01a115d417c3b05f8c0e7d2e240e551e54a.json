@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 241
+  },
+  "release_year": 2009,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "883929056972",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "5534",
+      "url": "https://www.blu-ray.com/movies/Natural-Born-Killers-Blu-ray/5534/"
+    }
+  ]
+}

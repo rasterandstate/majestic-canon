@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 500
+  },
+  "release_year": 2014,
+  "publisher": "lionsgate",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "012236191544",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "128940",
+      "url": "https://www.blu-ray.com/movies/Reservoir-Dogs-Blu-ray/128940/"
+    }
+  ]
+}
