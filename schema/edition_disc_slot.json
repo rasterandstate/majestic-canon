@@ -17,6 +17,7 @@
     "disc_identity": {
       "type": "object",
       "properties": {
+        "type": { "type": "string", "description": "Identity type from fingerprint (e.g. majestic.optical-disc.dvd)" },
         "structural_hash": { "type": "string" },
         "cas_hash": { "type": "string" },
         "hash_algorithm": { "type": "string" },
@@ -27,19 +28,37 @@
     },
     "fingerprint_history": {
       "type": "array",
-      "items": { "$ref": "#/$defs/disc_identity" },
-      "description": "Previous fingerprints when overwritten. Do not lose historical fingerprints."
+      "items": { "$ref": "#/$defs/fingerprint_history_entry" },
+      "description": "Previous fingerprints when overwritten. Full provenance. Do not lose historical fingerprints."
     }
   },
   "$defs": {
     "disc_identity": {
       "type": "object",
       "properties": {
+        "type": { "type": "string" },
         "structural_hash": { "type": "string" },
         "cas_hash": { "type": "string" },
         "hash_algorithm": { "type": "string" },
         "version": { "type": "number" },
-        "generated_at": { "type": "string" }
+        "generated_at": { "type": "string" },
+        "fingerprinted_at": { "type": "string" }
+      }
+    },
+    "fingerprint_history_entry": {
+      "type": "object",
+      "required": ["structural_hash", "cas_hash", "hash_algorithm", "fingerprinted_at", "reason"],
+      "properties": {
+        "type": { "type": "string" },
+        "version": { "type": "number" },
+        "structural_hash": { "type": "string" },
+        "cas_hash": { "type": "string" },
+        "hash_algorithm": { "type": "string" },
+        "fingerprinted_at": { "type": "string" },
+        "reason": {
+          "type": "string",
+          "enum": ["overwrite", "algorithm_upgrade", "manual_correction"]
+        }
       }
     }
   }
