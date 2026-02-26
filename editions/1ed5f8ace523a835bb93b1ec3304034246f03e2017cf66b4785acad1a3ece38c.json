@@ -1,0 +1,33 @@
+{
+  "movie": {
+    "tmdb_movie_id": 10778
+  },
+  "release_year": 2015,
+  "publisher": "universal",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "025192275159",
+  "barcode": {
+    "gs1": {
+      "prefix": "0025192",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "025192275159"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "91536",
+      "url": "https://www.blu-ray.com/movies/The-Man-Who-Wasnt-There-Blu-ray/91536/"
+    }
+  ]
+}

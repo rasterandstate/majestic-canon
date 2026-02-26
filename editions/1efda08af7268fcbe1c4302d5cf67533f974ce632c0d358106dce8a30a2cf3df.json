@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 11934
+  },
+  "release_year": 2013,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "883316605684",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "43495",
+      "url": "https://www.blu-ray.com/movies/The-Hudsucker-Proxy-Blu-ray/43495/"
+    }
+  ]
+}
