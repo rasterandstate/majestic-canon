@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 5718
+  },
+  "release_year": 2007,
+  "publisher": "first_look_studios",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "687797117762",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "602",
+      "url": "https://www.blu-ray.com/movies/King-of-California-Blu-ray/602/"
+    }
+  ]
+}

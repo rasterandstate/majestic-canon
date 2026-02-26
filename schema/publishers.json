@@ -118,6 +118,12 @@
     "country": "USA"
   },
   {
+    "publisher_id": "first_look_studios",
+    "display_name": "First Look Studios",
+    "aliases": ["first look", "first look studios", "first look media"],
+    "country": "USA"
+  },
+  {
     "publisher_id": "a24",
     "display_name": "A24",
     "aliases": ["a24"],
