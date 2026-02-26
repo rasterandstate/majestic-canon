@@ -11,12 +11,40 @@
     {
       "format": "BLURAY",
       "disc_count": 1,
-      "region": "A"
+      "region": "A",
+      "disc_type": "uhd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.uhd",
+        "structural_hash": "66e1afc2f3a0bbcb11d93c7611299d68b63b7b12a1bd16e911b68b9847898fe9",
+        "cas_hash": "6ccf2a11556df4d92021e4bcf939ec3ffcc151a92a8604e4ee5a7e275b0e33ed",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-26T22:09:00.403Z",
+        "fingerprinted_at": "2026-02-26T22:09:00.403Z"
+      }
     },
     {
       "format": "DVD",
       "disc_count": 1,
-      "region": "UNKNOWN"
+      "region": "1",
+      "disc_type": "dvd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.dvd",
+        "structural_hash": "7da125979587155e4c765ce442973f78ed1df2e30c3e59b26dee0bf0714ca729",
+        "cas_hash": "2c591971191ae7f6a4c92ee0789ed5e6cd82ecc32929d8497647e188f946a497",
+        "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-26T22:09:50.503Z",
+        "fingerprinted_at": "2026-02-26T22:09:50.503Z"
+      },
+      "region_history": [
+        {
+          "previous": "UNKNOWN",
+          "corrected_to": "1",
+          "corrected_at": "2026-02-26T22:09:50.503Z",
+          "reason": "fingerprint"
+        }
+      ]
     }
   ],
   "upc": "013132638485",

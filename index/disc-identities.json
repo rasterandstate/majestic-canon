@@ -1,6 +1,14 @@
 {
+  "majestic.optical-disc.bluray:1:e1ce5d39faadc5889c121e459fc302a055ea0486446223527dc5d21a6f94dc66": {
+    "editionId": "edition:v3:1ebc918a8de07f048b65032b795251dab1a9cbb29c8ae63097e7a99346d26efc",
+    "discIndex": 0
+  },
   "majestic.optical-disc.bluray:1:6d5044023272b030993839009301121c3fda30d099a46696e48bb890465ca2a8": {
     "editionId": "edition:v3:1ed5f8ace523a835bb93b1ec3304034246f03e2017cf66b4785acad1a3ece38c",
+    "discIndex": 0
+  },
+  "majestic.optical-disc.bluray:1:a73b0b4413c3526cccb43822a6f020be748656d8c653dfe9d6ee9623fcbf518a": {
+    "editionId": "edition:v3:1efda08af7268fcbe1c4302d5cf67533f974ce632c0d358106dce8a30a2cf3df",
     "discIndex": 0
   },
   "majestic.optical-disc.bluray:1:0a9440b3d6998ad481907dc22cdd8fcf9dec4a0b93007abfd7cb3372527ffaa3": {
@@ -11,12 +19,24 @@
     "editionId": "edition:v3:5492cb96c92d2d979b821941d68fe944b6b5b14708b2fbb7fce2adf43296cfc5",
     "discIndex": 1
   },
+  "majestic.optical-disc.bluray:1:2fe6bf0517845c0c174c484981ef234c181df24eb896e65917509092952fc466": {
+    "editionId": "edition:v3:669aa0c9d406e9bb2eeb949cb2efe4caa11e834146179f3356bddaea1857143f",
+    "discIndex": 0
+  },
   "majestic.optical-disc.uhd:1:2dbb5a9a2e4a60541b2b99cae61a2b16cf513fb9fb976e56e937a254c15af15b": {
     "editionId": "edition:v3:ceb97e2b988e5878f7d3b03682960e74d6f916c54f30a67e0582382dbd033846",
     "discIndex": 0
   },
   "majestic.optical-disc.bluray:1:ce00d127fee5d03bc7ff7a3104ec7a6adc16e9ae1b6c99d9f2cf7aa764ccc116": {
     "editionId": "edition:v3:ceb97e2b988e5878f7d3b03682960e74d6f916c54f30a67e0582382dbd033846",
+    "discIndex": 1
+  },
+  "majestic.optical-disc.uhd:1:66e1afc2f3a0bbcb11d93c7611299d68b63b7b12a1bd16e911b68b9847898fe9": {
+    "editionId": "edition:v3:a15bf0bd6ac8b6dbc99ee3fcfd7c6ca310a20153a6ec76368ad9b0bd596f3cc8",
+    "discIndex": 0
+  },
+  "majestic.optical-disc.dvd:1:7da125979587155e4c765ce442973f78ed1df2e30c3e59b26dee0bf0714ca729": {
+    "editionId": "edition:v3:a15bf0bd6ac8b6dbc99ee3fcfd7c6ca310a20153a6ec76368ad9b0bd596f3cc8",
     "discIndex": 1
   }
 }
