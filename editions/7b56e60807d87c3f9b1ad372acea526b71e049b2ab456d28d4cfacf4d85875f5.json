@@ -1,0 +1,30 @@
+{
+  "movie": {
+    "tmdb_movie_id": 313369
+  },
+  "release_year": 2017,
+  "publisher": "lionsgate",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    },
+    {
+      "format": "DVD",
+      "disc_count": 2,
+      "region": "UNKNOWN"
+    }
+  ],
+  "upc": "031398258384",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "170885",
+      "url": "https://www.blu-ray.com/movies/La-La-Land-Blu-ray/170885/"
+    }
+  ]
+}
