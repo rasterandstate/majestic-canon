@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 59967
+  },
+  "release_year": 2012,
+  "publisher": "sony",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "043396413481",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "49169",
+      "url": "https://www.blu-ray.com/movies/Looper-Blu-ray/49169/"
+    }
+  ]
+}
