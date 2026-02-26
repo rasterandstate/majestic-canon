@@ -32,6 +32,6 @@ Each file: `{company_prefix}.json`
 ```
 
 - `valid_to: null` = current (prefix not reassigned)
-- `valid_to: "2030"` = retired (prefix reassigned)
-- `gs1_status` optional = `"active"` | `"inactive"` — GS1 maintenance status. Inactive = registrant no longer maintains; barcodes still legitimate. Both active and inactive are `verified: true`. Only unknown prefixes are `verified: false`.
+- `valid_to: "2030"` = retired (prefix reassigned) — **resolver MUST skip** these entries (historical cutoff)
+- `gs1_status` optional = `"active"` | `"inactive"` — GS1 maintenance status. **Inactive does NOT mean retired.** Inactive = registrant no longer maintains the record; barcodes are still legitimate. Both active and inactive are `verified: true`. Only unknown prefixes are `verified: false`. `gs1_status` is informational and should be returned + displayed in UI.
 - `publisher_id` optional = prefix known but not yet mapped (confidence: known_prefix)
