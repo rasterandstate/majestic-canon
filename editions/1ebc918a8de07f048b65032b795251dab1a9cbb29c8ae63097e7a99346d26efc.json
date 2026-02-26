@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 12573
+  },
+  "release_year": 2010,
+  "publisher": "universal",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "FREE"
+    }
+  ],
+  "upc": "025195054393",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "9106",
+      "url": "https://www.blu-ray.com/movies/A-Serious-Man-Blu-ray/9106/"
+    }
+  ]
+}

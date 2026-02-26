@@ -1,0 +1,33 @@
+{
+  "movie": {
+    "tmdb_movie_id": 11775
+  },
+  "release_year": 2014,
+  "publisher": "universal",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "A"
+    }
+  ],
+  "upc": "025192215858",
+  "barcode": {
+    "gs1": {
+      "prefix": "0025192",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "025192215858"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "92723",
+      "url": "https://www.blu-ray.com/movies/Intolerable-Cruelty-Blu-ray/92723/"
+    }
+  ]
+}
