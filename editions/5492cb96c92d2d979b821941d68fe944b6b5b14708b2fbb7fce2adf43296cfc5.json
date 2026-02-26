@@ -11,7 +11,19 @@
     {
       "format": "BLURAY",
       "disc_count": 1,
-      "region": "ABC"
+      "region": "ABC",
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "0a9440b3d6998ad481907dc22cdd8fcf9dec4a0b93007abfd7cb3372527ffaa3",
+        "cas_hash": "4ffc08ee9b9a839d100f5fc1cce81e1ff11d070d678f4504aa76b69349af034c",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-26T21:51:53.191Z",
+        "fingerprinted_at": "2026-02-26T21:51:53.191Z",
+        "last_verified_at": "2026-02-26T21:52:14.291Z",
+        "verification_count": 4
+      }
     },
     {
       "format": "DVD",
@@ -25,7 +37,9 @@
         "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
         "version": 1,
         "generated_at": "2026-02-26T21:18:32.301Z",
-        "fingerprinted_at": "2026-02-26T21:18:32.301Z"
+        "fingerprinted_at": "2026-02-26T21:18:32.301Z",
+        "last_verified_at": "2026-02-26T21:29:58.346Z",
+        "verification_count": 1
       },
       "fingerprint_history": [
         {
