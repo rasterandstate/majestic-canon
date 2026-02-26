@@ -1,0 +1,25 @@
+{
+  "movie": {
+    "tmdb_movie_id": 11645
+  },
+  "release_year": 2010,
+  "publisher": "mpi_media_group",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "format": "BLURAY",
+      "disc_count": 1,
+      "region": "ABC"
+    }
+  ],
+  "upc": "057373208984",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "4186",
+      "url": "https://www.blu-ray.com/movies/Ran-Blu-ray/4186/"
+    }
+  ]
+}

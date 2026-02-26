@@ -1,8 +1,8 @@
 {
   "movie": {
-    "tmdb_movie_id": 11645
+    "tmdb_movie_id": 590
   },
-  "release_year": 2010,
+  "release_year": 2002,
   "publisher": "studio_canals",
   "packaging": {
     "type": "keepcase"
@@ -11,15 +11,16 @@
     {
       "format": "BLURAY",
       "disc_count": 1,
-      "region": "ABC"
+      "region": "A"
     }
   ],
-  "upc": "057373208984",
+  "upc": "4988102940874",
+  "notes": "Cinema Collection / Japanese Edition",
   "external_refs": [
     {
       "source": "blu-ray.com",
-      "id": "4186",
-      "url": "https://www.blu-ray.com/movies/Ran-Blu-ray/4186/"
+      "id": "42196",
+      "url": "https://www.blu-ray.com/movies/The-Hours-Blu-ray/42196/"
     }
   ]
 }
