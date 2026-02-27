@@ -11,7 +11,17 @@
     {
       "format": "BLURAY",
       "disc_count": 1,
-      "region": "FREE"
+      "region": "FREE",
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "81191c69148864abb3b9e0dcf02614f5bfb0502527ec0ae3bb3afbb1af172979",
+        "cas_hash": "7b9e9048e9b5ccdca8a03626d8f476b9926ee702c8e59fba0d0b13ba17fb7f3c",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T01:09:30.471Z",
+        "fingerprinted_at": "2026-02-27T01:09:30.471Z"
+      }
     }
   ],
   "upc": "883929056972",
