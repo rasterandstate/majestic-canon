@@ -1,0 +1,57 @@
+{
+  "movie": {
+    "tmdb_movie_id": 136795
+  },
+  "release_year": 2013,
+  "publisher": "fox",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "A",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "68afd6086a00d8bd5113c83933a0c1a722654bf035b3eadadd1cc61d858178aa",
+        "cas_hash": "c8d1b3389274562aea7ca3523fd95873c530415cbf8cba9740b67432afd1506d",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T16:37:26.820Z",
+        "fingerprinted_at": "2026-02-27T16:37:26.820Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "DVD",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "UNKNOWN",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      }
+    }
+  ],
+  "upc": "024543866244",
+  "barcode": {
+    "gs1": {
+      "prefix": "0024543",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "024543866244"
+  },
+  "edition_tags": [
+    "theatrical"
+  ],
+  "notes": "Unrated Cut & Theatrical"
+}

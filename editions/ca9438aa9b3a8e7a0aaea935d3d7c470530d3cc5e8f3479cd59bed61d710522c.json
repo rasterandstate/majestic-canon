@@ -1,0 +1,53 @@
+{
+  "movie": {
+    "tmdb_movie_id": 10147
+  },
+  "release_year": 2007,
+  "publisher": "lionsgate",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "A",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "e7aba20043e64cd9ff51c69847220c398d720ef60f1030a0c0a4407e5943b663",
+        "cas_hash": "ec57488ae51454755dbfe3cd0377cb0340c7c494bd220d5aed7e7a5c088b751b",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T16:48:41.670Z",
+        "fingerprinted_at": "2026-02-27T16:48:41.670Z"
+      }
+    }
+  ],
+  "upc": "031398136897",
+  "barcode": {
+    "gs1": {
+      "prefix": "0031398",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "031398136897"
+  },
+  "edition_tags": [
+    "director_cut"
+  ],
+  "notes": "Unrated Version & Director's Cut",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "459",
+      "url": "https://www.blu-ray.com/movies/Bad-Santa-Blu-ray/459/"
+    }
+  ]
+}

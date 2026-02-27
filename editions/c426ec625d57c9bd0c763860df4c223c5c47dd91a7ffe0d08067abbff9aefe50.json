@@ -1,0 +1,63 @@
+{
+  "movie": {
+    "tmdb_movie_id": 41733
+  },
+  "release_year": 2010,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "5e40e195a624e90512c1faa41693ea8df5967ea44e4364f2a2fb4e917a4f12bf",
+        "cas_hash": "86380974f7860d23bf396b5b896baf858bcb0e319541b0e13c8e416d020417e6",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T17:40:35.502Z",
+        "fingerprinted_at": "2026-02-27T17:40:35.502Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "DVD",
+      "role": "bonus",
+      "disc_count": 1,
+      "region": "14",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "bonus"
+      },
+      "disc_type": "dvd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.dvd",
+        "structural_hash": "9ccfa36d8567cfa81f4f02c8068490480597384c55b22efeddc60aa3ec9067c3",
+        "cas_hash": "b13df8d1e4bab592ca96dac6fcc070c2c20f2ad827c3ca4d5b4a5d76ef047f57",
+        "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T17:41:20.896Z",
+        "fingerprinted_at": "2026-02-27T17:41:20.896Z"
+      }
+    }
+  ],
+  "upc": "883929140824",
+  "barcode": {
+    "gs1": {
+      "prefix": "0883929",
+      "verified": true,
+      "gs1_status": "inactive"
+    },
+    "upc": "883929140824"
+  }
+}

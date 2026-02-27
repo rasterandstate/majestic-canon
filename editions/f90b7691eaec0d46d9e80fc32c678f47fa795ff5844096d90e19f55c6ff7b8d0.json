@@ -1,0 +1,49 @@
+{
+  "movie": {
+    "tmdb_movie_id": 1621
+  },
+  "release_year": 2013,
+  "publisher": "paramount",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "4174f418fb4027b3fc05511a7ea9260b6c39a82ae04d70436c98e1cf6dd8420a",
+        "cas_hash": "8f0d12cf325a917a15aeba70c98d1eb6bcbbb3831ee59dacab4062d03dbf901a",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T16:42:20.594Z",
+        "fingerprinted_at": "2026-02-27T16:42:20.594Z"
+      }
+    }
+  ],
+  "upc": "097361247748",
+  "barcode": {
+    "gs1": {
+      "prefix": "0097361",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "097361247748"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "61040",
+      "url": "https://www.blu-ray.com/movies/Trading-Places-Blu-ray/61040/"
+    }
+  ]
+}

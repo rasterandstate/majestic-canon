@@ -1,0 +1,52 @@
+{
+  "movie": {
+    "tmdb_movie_id": 9602
+  },
+  "release_year": 2007,
+  "publisher": "paramount",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "1b61cd3eb1272ce741052fce85d1ec8d19991743235eac9238812552fc82acd7",
+        "cas_hash": "9bef3e69a48a096a0c47d6ddc203fe0744ca9d75d7ca1d300389c04976ecca00",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T17:01:57.349Z",
+        "fingerprinted_at": "2026-02-27T17:01:57.349Z",
+        "last_verified_at": "2026-02-27T17:19:22.968Z",
+        "verification_count": 6
+      }
+    }
+  ],
+  "upc": "097361246147",
+  "barcode": {
+    "gs1": {
+      "prefix": "0097361",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "097361246147"
+  },
+  "notes": "Special Collector's Edition",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "408",
+      "url": "https://www.blu-ray.com/movies/Coming-to-America-Blu-ray/408/"
+    }
+  ]
+}

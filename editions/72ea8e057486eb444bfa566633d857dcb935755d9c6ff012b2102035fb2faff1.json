@@ -1,0 +1,42 @@
+{
+  "movie": {
+    "tmdb_movie_id": 77
+  },
+  "release_year": 2000,
+  "publisher": "sony",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "A",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "e5d7e2da113e45248787428cd29c471f39ddc410caa7ee2e98c55a5164957b99",
+        "cas_hash": "11ce88008c58306ed75abfc2ab41f96d894430d18466b2c084324f144636e92d",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T17:35:58.647Z",
+        "fingerprinted_at": "2026-02-27T17:35:58.647Z"
+      }
+    }
+  ],
+  "upc": "043396154162",
+  "barcode": {
+    "gs1": {
+      "prefix": "0043396",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "043396154162"
+  }
+}
