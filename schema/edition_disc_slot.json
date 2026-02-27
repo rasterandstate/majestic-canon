@@ -16,7 +16,13 @@
     },
     "role": {
       "type": "string",
-      "enum": ["feature", "feature_sd_copy", "bonus", "soundtrack", "unknown"],
+      "enum": [
+        "feature",
+        "feature_sd_copy",
+        "bonus",
+        "soundtrack",
+        "unknown"
+      ],
       "default": "unknown",
       "description": "Explicit disc role. Never inferred. Default 'unknown' for legacy."
     },
@@ -25,7 +31,11 @@
     },
     "disc_type": {
       "type": "string",
-      "enum": ["dvd", "bluray", "uhd"],
+      "enum": [
+        "dvd",
+        "bluray",
+        "uhd"
+      ],
       "description": "From fingerprint identity.type only. Never inferred from format."
     },
     "disc_count": {
@@ -39,12 +49,24 @@
           "type": "string",
           "description": "Identity type from fingerprint (e.g. majestic.optical-disc.dvd)"
         },
-        "structural_hash": { "type": "string" },
-        "cas_hash": { "type": "string" },
-        "hash_algorithm": { "type": "string" },
-        "version": { "type": "number" },
-        "generated_at": { "type": "string" },
-        "fingerprinted_at": { "type": "string" },
+        "structural_hash": {
+          "type": "string"
+        },
+        "cas_hash": {
+          "type": "string"
+        },
+        "hash_algorithm": {
+          "type": "string"
+        },
+        "version": {
+          "type": "number"
+        },
+        "generated_at": {
+          "type": "string"
+        },
+        "fingerprinted_at": {
+          "type": "string"
+        },
         "last_verified_at": {
           "type": "string",
           "description": "ISO timestamp of last physical verification (idempotent re-fingerprint)"
@@ -57,51 +79,148 @@
     },
     "fingerprint_history": {
       "type": "array",
-      "items": { "$ref": "#/$defs/fingerprint_history_entry" },
+      "items": {
+        "$ref": "#/$defs/fingerprint_history_entry"
+      },
       "description": "Previous fingerprints when overwritten. Full provenance. Do not lose historical fingerprints."
     },
     "region_history": {
       "type": "array",
-      "items": { "$ref": "#/$defs/region_history_entry" },
+      "items": {
+        "$ref": "#/$defs/region_history_entry"
+      },
       "description": "Previous region values when corrected by fingerprint. Disc is authoritative."
+    },
+    "variant": {
+      "type": "object",
+      "description": "Optional variant metadata for disambiguation. Not identity-significant.",
+      "properties": {
+        "video_type": {
+          "type": "string",
+          "enum": [
+            "2D",
+            "3D",
+            "both"
+          ]
+        },
+        "content_scope": {
+          "type": "string",
+          "enum": [
+            "feature",
+            "bonus",
+            "mixed"
+          ]
+        },
+        "duplicate_of_disc": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "description": "1-indexed slot this disc duplicates. Cannot reference self."
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
     }
   },
   "$defs": {
     "disc_identity": {
       "type": "object",
       "properties": {
-        "type": { "type": "string" },
-        "structural_hash": { "type": "string" },
-        "cas_hash": { "type": "string" },
-        "hash_algorithm": { "type": "string" },
-        "version": { "type": "number" },
-        "generated_at": { "type": "string" },
-        "fingerprinted_at": { "type": "string" },
-        "last_verified_at": { "type": "string" },
-        "verification_count": { "type": "integer" }
+        "type": {
+          "type": "string"
+        },
+        "structural_hash": {
+          "type": "string"
+        },
+        "cas_hash": {
+          "type": "string"
+        },
+        "hash_algorithm": {
+          "type": "string"
+        },
+        "version": {
+          "type": "number"
+        },
+        "generated_at": {
+          "type": "string"
+        },
+        "fingerprinted_at": {
+          "type": "string"
+        },
+        "last_verified_at": {
+          "type": "string"
+        },
+        "verification_count": {
+          "type": "integer"
+        }
       }
     },
     "fingerprint_history_entry": {
       "type": "object",
-      "required": ["structural_hash", "cas_hash", "hash_algorithm", "fingerprinted_at", "reason"],
+      "required": [
+        "structural_hash",
+        "cas_hash",
+        "hash_algorithm",
+        "fingerprinted_at",
+        "reason"
+      ],
       "properties": {
-        "type": { "type": "string" },
-        "version": { "type": "number" },
-        "structural_hash": { "type": "string" },
-        "cas_hash": { "type": "string" },
-        "hash_algorithm": { "type": "string" },
-        "fingerprinted_at": { "type": "string" },
-        "reason": { "type": "string", "enum": ["overwrite", "algorithm_upgrade", "manual_correction"] }
+        "type": {
+          "type": "string"
+        },
+        "version": {
+          "type": "number"
+        },
+        "structural_hash": {
+          "type": "string"
+        },
+        "cas_hash": {
+          "type": "string"
+        },
+        "hash_algorithm": {
+          "type": "string"
+        },
+        "fingerprinted_at": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string",
+          "enum": [
+            "overwrite",
+            "algorithm_upgrade",
+            "manual_correction"
+          ]
+        }
       }
     },
     "region_history_entry": {
       "type": "object",
-      "required": ["previous", "corrected_to", "corrected_at", "reason"],
+      "required": [
+        "previous",
+        "corrected_to",
+        "corrected_at",
+        "reason"
+      ],
       "properties": {
-        "previous": { "type": "string" },
-        "corrected_to": { "type": "string" },
-        "corrected_at": { "type": "string", "description": "ISO timestamp" },
-        "reason": { "type": "string", "enum": ["fingerprint"] }
+        "previous": {
+          "type": "string"
+        },
+        "corrected_to": {
+          "type": "string"
+        },
+        "corrected_at": {
+          "type": "string",
+          "description": "ISO timestamp"
+        },
+        "reason": {
+          "type": "string",
+          "enum": [
+            "fingerprint"
+          ]
+        }
       }
     }
   }

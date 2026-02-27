@@ -30,6 +30,17 @@ function validateEdition(file: string, edition: Record<string, unknown>): string
       if (!VALID_ROLES.has(role)) {
         errors.push(`${file}: disc ${i + 1} has invalid role "${d?.role}"`);
       }
+      const variant = d?.variant as { duplicate_of_disc?: number | null } | undefined;
+      if (variant != null && typeof variant === 'object' && variant.duplicate_of_disc != null) {
+        const dup = variant.duplicate_of_disc;
+        if (typeof dup !== 'number' || dup < 1) {
+          errors.push(`${file}: disc ${i + 1} variant.duplicate_of_disc must be positive integer`);
+        } else if (dup === slot) {
+          errors.push(`${file}: disc ${i + 1} variant.duplicate_of_disc cannot reference self`);
+        } else if (dup > discs.length) {
+          errors.push(`${file}: disc ${i + 1} variant.duplicate_of_disc ${dup} exceeds edition disc count ${discs.length}`);
+        }
+      }
     }
   }
 
