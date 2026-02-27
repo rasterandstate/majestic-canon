@@ -1,0 +1,95 @@
+{
+  "movie": {
+    "tmdb_movie_id": 313369
+  },
+  "release_year": 2017,
+  "publisher": "lionsgate",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "A",
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "73e6acecdf17ad96b2abc23eade5f70b22ce5db5418e78f4e313ed51fa84dfde",
+        "cas_hash": "e668375d62887ffe1146d31e69203555cbd78f36a34581fee32e60c98fbc3f53",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T01:26:20.291Z",
+        "fingerprinted_at": "2026-02-27T01:26:20.291Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "DVD",
+      "role": "feature_sd_copy",
+      "disc_count": 1,
+      "region": "1",
+      "disc_type": "dvd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.dvd",
+        "structural_hash": "bdb60584564cecfe557573e5ad065b485433e93ce4384c881eb7ee17f63bb200",
+        "cas_hash": "99d1fd3fcc3547d8e09ee5eb0bed34df03d646c11b38ecf72d2b00c33092e171",
+        "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T01:38:55.279Z",
+        "fingerprinted_at": "2026-02-27T01:38:55.279Z"
+      },
+      "region_history": [
+        {
+          "previous": "UNKNOWN",
+          "corrected_to": "1",
+          "corrected_at": "2026-02-27T01:38:55.279Z",
+          "reason": "fingerprint"
+        }
+      ]
+    },
+    {
+      "slot": 3,
+      "format": "DVD",
+      "role": "bonus",
+      "disc_count": 1,
+      "region": "1",
+      "disc_type": "dvd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.dvd",
+        "structural_hash": "7cbb6d57a0699386dea199c5e36fd38d8a0a60da688ae09c991161415642cdc6",
+        "cas_hash": "01fc02210744590aa7accf85047a852c1fc2645848d1427eeb86db8fb907d2dd",
+        "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T01:38:00.287Z",
+        "fingerprinted_at": "2026-02-27T01:38:00.287Z"
+      },
+      "region_history": [
+        {
+          "previous": "UNKNOWN",
+          "corrected_to": "1",
+          "corrected_at": "2026-02-27T01:38:00.287Z",
+          "reason": "fingerprint"
+        }
+      ]
+    }
+  ],
+  "upc": "031398258384",
+  "barcode": {
+    "gs1": {
+      "prefix": "0031398",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "031398258384"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "170885",
+      "url": "https://www.blu-ray.com/movies/La-La-Land-Blu-ray/170885/"
+    }
+  ]
+}
