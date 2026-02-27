@@ -1,8 +1,8 @@
 {
   "movie": {
-    "tmdb_movie_id": 2266
+    "tmdb_movie_id": 290
   },
-  "release_year": 2008,
+  "release_year": 2017,
   "publisher": "kino_lorber",
   "packaging": {
     "type": "keepcase"
@@ -17,29 +17,29 @@
       "disc_type": "bluray",
       "disc_identity": {
         "type": "majestic.optical-disc.bluray",
-        "structural_hash": "19974ffadb80cabac496917992725a4d8752209bb08a12413f847ffb22d0942d",
-        "cas_hash": "94e20de29e293e2c876ca7f0e4803ffe50016e51014e0a056016fdb62239aac4",
+        "structural_hash": "2d4ea91d60f46f39f8d90d2df76321abf991dc2e148e82b34b114a05f1357873",
+        "cas_hash": "c5f0b041bd3420f51ef0181b8b56acc4e37cae941cb127f107349f43b7c6e7ed",
         "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
         "version": 1,
-        "generated_at": "2026-02-27T01:41:45.767Z",
-        "fingerprinted_at": "2026-02-27T01:41:45.767Z"
+        "generated_at": "2026-02-27T01:53:41.927Z",
+        "fingerprinted_at": "2026-02-27T01:53:41.927Z"
       }
     }
   ],
-  "upc": "687797116260",
+  "upc": "738329207403",
   "barcode": {
     "gs1": {
-      "prefix": "0687797",
+      "prefix": "738329",
       "verified": true,
       "gs1_status": "active"
     },
-    "upc": "687797116260"
+    "upc": "738329207403"
   },
   "external_refs": [
     {
       "source": "blu-ray.com",
-      "id": "1036",
-      "url": "https://www.blu-ray.com/movies/Paris-je-taime-Blu-ray/1036/"
+      "id": "33015",
+      "url": "https://www.blu-ray.com/movies/Barton-Fink-Blu-ray/33015/"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "movie": {
-    "tmdb_movie_id": 2266
+    "tmdb_movie_id": 4944
   },
   "release_year": 2008,
-  "publisher": "kino_lorber",
+  "publisher": "universal",
   "packaging": {
     "type": "keepcase"
   },
@@ -13,33 +13,33 @@
       "format": "BLURAY",
       "role": "feature",
       "disc_count": 1,
-      "region": "A",
+      "region": "FREE",
       "disc_type": "bluray",
       "disc_identity": {
         "type": "majestic.optical-disc.bluray",
-        "structural_hash": "19974ffadb80cabac496917992725a4d8752209bb08a12413f847ffb22d0942d",
-        "cas_hash": "94e20de29e293e2c876ca7f0e4803ffe50016e51014e0a056016fdb62239aac4",
+        "structural_hash": "dd20eff19a07d92f3381d68d0760e26e26c43d7dff3343611d2bab65534e1c25",
+        "cas_hash": "fe18f08b67bbe6c1b7712c65b1102a5fc44c40a100309ce362f55f0f87e1bbc7",
         "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
         "version": 1,
-        "generated_at": "2026-02-27T01:41:45.767Z",
-        "fingerprinted_at": "2026-02-27T01:41:45.767Z"
+        "generated_at": "2026-02-27T01:48:40.208Z",
+        "fingerprinted_at": "2026-02-27T01:48:40.208Z"
       }
     }
   ],
-  "upc": "687797116260",
+  "upc": "025195049085",
   "barcode": {
     "gs1": {
-      "prefix": "0687797",
+      "prefix": "0025195",
       "verified": true,
       "gs1_status": "active"
     },
-    "upc": "687797116260"
+    "upc": "025195049085"
   },
   "external_refs": [
     {
       "source": "blu-ray.com",
-      "id": "1036",
-      "url": "https://www.blu-ray.com/movies/Paris-je-taime-Blu-ray/1036/"
+      "id": "2495",
+      "url": "https://www.blu-ray.com/movies/Burn-After-Reading-Blu-ray/2495/"
     }
   ]
 }

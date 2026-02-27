@@ -1,9 +1,9 @@
 {
   "movie": {
-    "tmdb_movie_id": 2266
+    "tmdb_movie_id": 86829
   },
-  "release_year": 2008,
-  "publisher": "kino_lorber",
+  "release_year": 2014,
+  "publisher": "sony",
   "packaging": {
     "type": "keepcase"
   },
@@ -17,29 +17,29 @@
       "disc_type": "bluray",
       "disc_identity": {
         "type": "majestic.optical-disc.bluray",
-        "structural_hash": "19974ffadb80cabac496917992725a4d8752209bb08a12413f847ffb22d0942d",
-        "cas_hash": "94e20de29e293e2c876ca7f0e4803ffe50016e51014e0a056016fdb62239aac4",
+        "structural_hash": "2c878e48f54a117a1c3998f26cab81926541e44ca7bf3676481929c22b56e8d0",
+        "cas_hash": "44491f1a39d96b68ee018eb15fd84535b997df8c90f40a6065874dee75118377",
         "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
         "version": 1,
-        "generated_at": "2026-02-27T01:41:45.767Z",
-        "fingerprinted_at": "2026-02-27T01:41:45.767Z"
+        "generated_at": "2026-02-27T01:51:29.243Z",
+        "fingerprinted_at": "2026-02-27T01:51:29.243Z"
       }
     }
   ],
-  "upc": "687797116260",
+  "upc": "043396428591",
   "barcode": {
     "gs1": {
-      "prefix": "0687797",
+      "prefix": "0043396",
       "verified": true,
       "gs1_status": "active"
     },
-    "upc": "687797116260"
+    "upc": "043396428591"
   },
   "external_refs": [
     {
       "source": "blu-ray.com",
-      "id": "1036",
-      "url": "https://www.blu-ray.com/movies/Paris-je-taime-Blu-ray/1036/"
+      "id": "77557",
+      "url": "https://www.blu-ray.com/movies/Inside-Llewyn-Davis-Blu-ray/77557/"
     }
   ]
 }
