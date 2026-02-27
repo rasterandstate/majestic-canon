@@ -88,6 +88,11 @@
       },
       "description": "Previous fingerprints when overwritten. Full provenance. Do not lose historical fingerprints."
     },
+    "main_feature_runtime_sec": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Consensus-derived main feature runtime in seconds."
+    },
     "region_history": {
       "type": "array",
       "items": {
