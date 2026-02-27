@@ -1,0 +1,80 @@
+{
+  "movie": {
+    "tmdb_movie_id": 302946
+  },
+  "release_year": 2017,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "4c2f6068e70401a056df63f2c4a6aa8cdcd15699ee99f09042a1f342d73f24c4",
+        "cas_hash": "e1a18958eff8e4c983436070d8e63096c63c3e015804a2ac6198354b7c2e3f10",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T16:10:52.988Z",
+        "fingerprinted_at": "2026-02-27T16:10:52.988Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "DVD",
+      "role": "feature_sd_copy",
+      "disc_count": 1,
+      "region": "14",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      },
+      "disc_type": "dvd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.dvd",
+        "structural_hash": "3082d41681ecf1d378f3fe17f5b2216b1a2cf330f676bf30756d13a862bd53b0",
+        "cas_hash": "33065a29496345e9e4a92981a12714241fdb00114bd52836eb7ee11d4344a54f",
+        "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T16:03:12.361Z",
+        "fingerprinted_at": "2026-02-27T16:03:12.361Z",
+        "last_verified_at": "2026-02-27T16:06:05.052Z",
+        "verification_count": 1
+      },
+      "region_history": [
+        {
+          "previous": "UNKNOWN",
+          "corrected_to": "14",
+          "corrected_at": "2026-02-27T16:06:05.052Z",
+          "reason": "fingerprint"
+        }
+      ]
+    }
+  ],
+  "upc": "883929533251",
+  "barcode": {
+    "gs1": {
+      "prefix": "0883929",
+      "verified": true,
+      "gs1_status": "inactive"
+    },
+    "upc": "883929533251"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "154259",
+      "url": "https://www.blu-ray.com/movies/The-Accountant-Blu-ray/154259/"
+    }
+  ]
+}

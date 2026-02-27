@@ -105,11 +105,58 @@
       "format": "DVD",
       "role": "bonus",
       "disc_count": 1,
-      "region": "UNKNOWN",
+      "region": "1234",
       "variant": {
         "video_type": "2D",
         "content_scope": "bonus"
-      }
+      },
+      "disc_type": "dvd",
+      "surfaces": [
+        {
+          "side": "A",
+          "video_type": "2D",
+          "content_scope": "bonus",
+          "notes": "When the Lion Roars: Part 1",
+          "region": "1234",
+          "disc_identity": {
+            "type": "majestic.optical-disc.dvd",
+            "structural_hash": "478a9fe81733c87cfe92b2dc7ec20d018182375067dec4c0ea0163c44631b155",
+            "cas_hash": "83063325e9249432c6361868b7c298240c14757364f8687f7dbf734c6502a0e6",
+            "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
+            "version": 1,
+            "generated_at": "2026-02-27T03:05:01.283Z",
+            "fingerprinted_at": "2026-02-27T03:05:01.283Z",
+            "last_verified_at": "2026-02-27T15:55:05.098Z",
+            "verification_count": 3
+          }
+        },
+        {
+          "side": "B",
+          "video_type": "2D",
+          "content_scope": "bonus",
+          "notes": "When the Lion Roars: Part 2",
+          "region": "1234",
+          "disc_identity": {
+            "type": "majestic.optical-disc.dvd",
+            "structural_hash": "86f6a06e70d1a08ab3a936a4a7af826b4071feef78c28f29a72aecaae6b6b5ac",
+            "cas_hash": "3ba64e4b182d10de1b5016afaa2d3ce2297f8d4dadc9f50307b7bcdac0af0984",
+            "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
+            "version": 1,
+            "generated_at": "2026-02-27T03:05:44.021Z",
+            "fingerprinted_at": "2026-02-27T03:05:44.021Z",
+            "last_verified_at": "2026-02-27T15:55:45.304Z",
+            "verification_count": 2
+          }
+        }
+      ],
+      "region_history": [
+        {
+          "previous": "UNKNOWN",
+          "corrected_to": "1234",
+          "corrected_at": "2026-02-27T15:40:01.327Z",
+          "reason": "fingerprint"
+        }
+      ]
     }
   ],
   "upc": "883929333349",

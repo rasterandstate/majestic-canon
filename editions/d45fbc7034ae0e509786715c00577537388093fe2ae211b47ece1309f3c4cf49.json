@@ -1,0 +1,50 @@
+{
+  "movie": {
+    "tmdb_movie_id": 60304
+  },
+  "release_year": 2013,
+  "publisher": "paramount",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "33b9be29d517bb4bc4589daccb276712fc196186714881f2cc48da43010acad4",
+        "cas_hash": "92add759e51917a263efe4e16d2049a78eac671ada3c762252078572f1baa5d2",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T16:16:43.756Z",
+        "fingerprinted_at": "2026-02-27T16:16:43.756Z"
+      }
+    }
+  ],
+  "upc": "032429129499",
+  "barcode": {
+    "gs1": {
+      "prefix": "0032429",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "032429129499"
+  },
+  "notes": "Unrated Cut",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "65146",
+      "url": "https://www.blu-ray.com/movies/Hansel-and-Gretel-Witch-Hunters-Blu-ray/65146/"
+    }
+  ]
+}
