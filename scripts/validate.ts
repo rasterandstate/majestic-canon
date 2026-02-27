@@ -61,6 +61,13 @@ function validateEdition(file: string, edition: Record<string, unknown>): string
         if (surfaces.length > 2) {
           errors.push(`${file}: disc ${i + 1} surfaces max 2, got ${surfaces.length}`);
         }
+        // Invariant: when surfaces exist, disc-level disc_identity must be null (identity lives at surface level)
+        if (d?.disc_identity != null && typeof (d.disc_identity as object) === 'object') {
+          const di = d.disc_identity as Record<string, unknown>;
+          if (di.structural_hash != null || di.cas_hash != null || (di as { casie_hash?: unknown }).casie_hash != null) {
+            errors.push(`${file}: disc ${i + 1} has surfaces but also disc-level disc_identity; identity must live at surface level only`);
+          }
+        }
       }
     }
   }
