@@ -9,7 +9,17 @@ import { fileURLToPath } from 'url';
 
 const ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
 
-const VALID_ROLES = new Set(['feature', 'feature_sd_copy', 'bonus', 'soundtrack', 'unknown']);
+const VALID_ROLES = new Set([
+  'feature',
+  'feature_sd_copy',
+  'bonus',
+  'digital_copy',
+  'distribution_media',
+  'soundtrack',
+  'data',
+  'supplemental',
+  'unknown',
+]);
 const HEX64 = /^[a-fA-F0-9]{64}$/;
 
 function validateEdition(file: string, edition: Record<string, unknown>): string[] {

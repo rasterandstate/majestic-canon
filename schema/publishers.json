@@ -18,6 +18,15 @@
     "country": "USA"
   },
   {
+    "publisher_id": "new_line_home_entertainment",
+    "display_name": "New Line Home Entertainment",
+    "aliases": ["new line home video", "new line home entertainment"],
+    "country": "USA",
+    "active": false,
+    "parent_company": "warner_bros",
+    "notes": "Home video label of New Line Cinema; later absorbed into Warner Bros."
+  },
+  {
     "publisher_id": "universal",
     "display_name": "Universal Pictures Home Entertainment",
     "aliases": ["universal", "universal pictures", "universal home video", "universal studios"],
