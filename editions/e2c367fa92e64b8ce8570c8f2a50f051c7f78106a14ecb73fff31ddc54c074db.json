@@ -1,0 +1,49 @@
+{
+  "movie": {
+    "tmdb_movie_id": 212778
+  },
+  "release_year": 2019,
+  "publisher": "universal_studios_home_entertainment",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "31405b92e54852046a502e866eef3f612617d26348c7abd2f4274c0996165308",
+        "cas_hash": "41f3bdb16598027ac75a98f1539f58da27b69e53a754fe55d2214552d3bc0d9f",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:24:22.994Z",
+        "fingerprinted_at": "2026-02-27T22:24:22.994Z"
+      }
+    }
+  ],
+  "upc": "191329092187",
+  "barcode": {
+    "gs1": {
+      "prefix": "0191329",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "191329092187"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "228091",
+      "url": "https://www.blu-ray.com/movies/Chef-Blu-ray/228091/"
+    }
+  ]
+}

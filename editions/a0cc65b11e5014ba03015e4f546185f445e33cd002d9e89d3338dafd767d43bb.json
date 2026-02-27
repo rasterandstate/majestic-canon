@@ -1,0 +1,49 @@
+{
+  "movie": {
+    "tmdb_movie_id": 109428
+  },
+  "release_year": 2013,
+  "publisher": "sony",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "ABC",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "6dc720a673fcda86957d09608804ad006ed31afb372aa9f2379f88f08ce295e9",
+        "cas_hash": "bc9f8ac63d890ad6c1d5c45e6cdf2e0660a3eaeb2cfc5bfdb5ad04e317f5a83a",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T20:50:59.765Z",
+        "fingerprinted_at": "2026-02-27T20:50:59.765Z"
+      }
+    }
+  ],
+  "upc": "043396417298",
+  "barcode": {
+    "gs1": {
+      "prefix": "0043396",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "043396417298"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "63523",
+      "url": "https://www.blu-ray.com/movies/Evil-Dead-Blu-ray/63523/"
+    }
+  ]
+}

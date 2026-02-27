@@ -1,0 +1,60 @@
+{
+  "movie": {
+    "tmdb_movie_id": 37686
+  },
+  "release_year": 2011,
+  "publisher": "paramount",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "6df909e5f8f5f9d639e9aaf2d3a75b0f3501429140afc3e4d0715f093fa2f82c",
+        "cas_hash": "bf98430be3754feea2abddbff11906fca2993e549dfb7ef3c0c8f04511342378",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:35:23.719Z",
+        "fingerprinted_at": "2026-02-27T22:35:23.719Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "DVD",
+      "role": "feature_sd_copy",
+      "disc_count": 1,
+      "region": "UNKNOWN",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      }
+    }
+  ],
+  "upc": "097361454443",
+  "barcode": {
+    "gs1": {
+      "prefix": "0097361",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "097361454443"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "26081",
+      "url": "https://www.blu-ray.com/movies/Super-8-Blu-ray/26081/"
+    }
+  ]
+}

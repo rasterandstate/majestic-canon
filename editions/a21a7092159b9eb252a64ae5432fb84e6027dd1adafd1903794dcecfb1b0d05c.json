@@ -1,0 +1,49 @@
+{
+  "movie": {
+    "tmdb_movie_id": 752
+  },
+  "release_year": 2008,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "b9106bae4b05c23c9ebaedd17135dd4de2f43ca71fa64b5ee3ca1a15ca40dcb0",
+        "cas_hash": "15fff026932bf822d86bcfd87d9f5fd265a87510dea72879b8ccc5649b764e97",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T20:54:59.937Z",
+        "fingerprinted_at": "2026-02-27T20:54:59.937Z"
+      }
+    }
+  ],
+  "upc": "085391117018",
+  "barcode": {
+    "gs1": {
+      "prefix": "0085391",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "085391117018"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "744",
+      "url": "https://www.blu-ray.com/movies/V-for-Vendetta-Blu-ray/744/"
+    }
+  ]
+}

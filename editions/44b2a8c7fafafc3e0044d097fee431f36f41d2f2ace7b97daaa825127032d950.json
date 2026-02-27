@@ -1,0 +1,49 @@
+{
+  "movie": {
+    "tmdb_movie_id": 198184
+  },
+  "release_year": 2015,
+  "publisher": "sony",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "ABC",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "ec2f2f3d573e48132f8504880f74984c342a89b82a55bc5c598eb45730f46c78",
+        "cas_hash": "a01b613d5a8a8deeceb1b3c083d8ea58877121b632802c788744cfcf73b882b1",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T20:52:44.572Z",
+        "fingerprinted_at": "2026-02-27T20:52:44.572Z"
+      }
+    }
+  ],
+  "upc": "043396446663",
+  "barcode": {
+    "gs1": {
+      "prefix": "0043396",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "043396446663"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "126947",
+      "url": "https://www.blu-ray.com/movies/Chappie-Blu-ray/126947/"
+    }
+  ]
+}

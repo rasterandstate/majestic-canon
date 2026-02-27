@@ -1,0 +1,78 @@
+{
+  "movie": {
+    "tmdb_movie_id": 445571
+  },
+  "release_year": 2018,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "53aab99cea5f590d7acea83a31ad4e0e65e7d6565edf1be1c81e3b98d6f7ec2e",
+        "cas_hash": "3e8c573f4b87cf3c691788f9edaffb8088e27223cf07affb9041a63479cc2260",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:13:32.283Z",
+        "fingerprinted_at": "2026-02-27T22:13:32.283Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "DVD",
+      "role": "feature_sd_copy",
+      "disc_count": 1,
+      "region": "14",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "dvd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.dvd",
+        "structural_hash": "5df82a7a00840ef633772e88a6f06b9a085de06fc51551761b31db29ffdd136b",
+        "cas_hash": "64b037119ece2dfe32e4d944740b0c81423d88918acd42a2ccc21d3b01da6422",
+        "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:14:11.565Z",
+        "fingerprinted_at": "2026-02-27T22:14:11.565Z"
+      },
+      "region_history": [
+        {
+          "previous": "UNKNOWN",
+          "corrected_to": "14",
+          "corrected_at": "2026-02-27T22:14:11.565Z",
+          "reason": "fingerprint"
+        }
+      ]
+    }
+  ],
+  "upc": "883929620678",
+  "barcode": {
+    "gs1": {
+      "prefix": "0883929",
+      "verified": true,
+      "gs1_status": "inactive"
+    },
+    "upc": "883929620678"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "200489",
+      "url": "https://www.blu-ray.com/movies/Game-Night-Blu-ray/200489/"
+    }
+  ]
+}

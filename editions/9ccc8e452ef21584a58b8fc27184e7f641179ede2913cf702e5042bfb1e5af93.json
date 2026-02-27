@@ -1,0 +1,49 @@
+{
+  "movie": {
+    "tmdb_movie_id": 4133
+  },
+  "release_year": 2008,
+  "publisher": "new_line_home_entertainment",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "889ba07b16929cad967978c911ec0603a0132c9adda2feaeb7fdecd2e733efbe",
+        "cas_hash": "c44846c95b0a7ec081038d3cf9d137cab20bb937dc87e39cfd09f66e80bbab85",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T21:01:05.287Z",
+        "fingerprinted_at": "2026-02-27T21:01:05.287Z"
+      }
+    }
+  ],
+  "upc": "794043123443",
+  "barcode": {
+    "gs1": {
+      "prefix": "0794043",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "794043123443"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "1040",
+      "url": "https://www.blu-ray.com/movies/Blow-Blu-ray/1040/"
+    }
+  ]
+}

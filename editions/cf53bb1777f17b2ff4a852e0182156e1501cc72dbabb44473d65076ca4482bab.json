@@ -1,0 +1,52 @@
+{
+  "movie": {
+    "tmdb_movie_id": 7446
+  },
+  "release_year": 2026,
+  "publisher": "paramount",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "b45e4aefc7c03ab865edd61e3293d802709d362bd60fbdeff6e957add968fb7c",
+        "cas_hash": "0488500423b581e4c8c36dc341c65f565718044158b854f9d7054b1e08fbd10d",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:29:47.130Z",
+        "fingerprinted_at": "2026-02-27T22:29:47.130Z"
+      }
+    }
+  ],
+  "upc": "097361394442",
+  "barcode": {
+    "gs1": {
+      "prefix": "0097361",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "097361394442"
+  },
+  "edition_tags": [
+    "director_cut"
+  ],
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "2018",
+      "url": "https://www.blu-ray.com/movies/Tropic-Thunder-Blu-ray/2018/"
+    }
+  ]
+}

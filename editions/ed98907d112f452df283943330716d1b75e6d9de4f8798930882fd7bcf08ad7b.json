@@ -1,0 +1,78 @@
+{
+  "movie": {
+    "tmdb_movie_id": 32823
+  },
+  "release_year": 2010,
+  "publisher": "universal",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "a4b39aba9ceedcd0204fe805f2efeaa7ec15f6322bd595381082f082b3e0a158",
+        "cas_hash": "17ce5cf72811ca02acd07cefb61d64556f8c56c21d8d723ff54cf34a1c8c0016",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:17:15.729Z",
+        "fingerprinted_at": "2026-02-27T22:17:15.729Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "DVD",
+      "role": "bonus",
+      "disc_count": 1,
+      "region": "1",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "bonus"
+      },
+      "disc_type": "dvd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.dvd",
+        "structural_hash": "770ae0f26a4619772434fd4c84f95bb9b82362470d697d35b09bef3a6681768f",
+        "cas_hash": "e3c2f578a11156847e719766d1946d5b53a7e134642b46e158880892692e0bf0",
+        "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:17:56.010Z",
+        "fingerprinted_at": "2026-02-27T22:17:56.010Z"
+      },
+      "region_history": [
+        {
+          "previous": "UNKNOWN",
+          "corrected_to": "1",
+          "corrected_at": "2026-02-27T22:17:56.011Z",
+          "reason": "fingerprint"
+        }
+      ]
+    }
+  ],
+  "upc": "025192044168",
+  "barcode": {
+    "gs1": {
+      "prefix": "0025192",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "025192044168"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "13591",
+      "url": "https://www.blu-ray.com/movies/Get-Him-to-the-Greek-Blu-ray/13591/"
+    }
+  ]
+}

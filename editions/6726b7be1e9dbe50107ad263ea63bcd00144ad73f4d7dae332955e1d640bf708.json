@@ -1,0 +1,42 @@
+{
+  "movie": {
+    "tmdb_movie_id": 205587
+  },
+  "release_year": 2015,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "b8861a4070e995ce14bec7f3c3f6aa41f0646d47a0b612a0f2dc369b557ee6ae",
+        "cas_hash": "d8ce64e5442af8387b02ca2f7a5422adc0d20956288243df26ce3121b778ff4b",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:06:33.673Z",
+        "fingerprinted_at": "2026-02-27T22:06:33.673Z"
+      }
+    }
+  ],
+  "upc": "883929409303",
+  "barcode": {
+    "gs1": {
+      "prefix": "0883929",
+      "verified": true,
+      "gs1_status": "inactive"
+    },
+    "upc": "883929409303"
+  }
+}

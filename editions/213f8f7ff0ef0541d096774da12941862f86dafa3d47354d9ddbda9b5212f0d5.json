@@ -1,0 +1,49 @@
+{
+  "movie": {
+    "tmdb_movie_id": 320
+  },
+  "release_year": 2010,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "408438afdcb356d5a727fe06ddac2bfa018c08d7443d2bad2fa4ee6f596888b6",
+        "cas_hash": "12a30e25165ba227b4e32f79f6d5934103df9b974d173344ea64c16f1abbd4a0",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:20:15.694Z",
+        "fingerprinted_at": "2026-02-27T22:20:15.694Z"
+      }
+    }
+  ],
+  "upc": "883929108985",
+  "barcode": {
+    "gs1": {
+      "prefix": "0883929",
+      "verified": true,
+      "gs1_status": "inactive"
+    },
+    "upc": "883929108985"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "10698",
+      "url": "https://www.blu-ray.com/movies/Insomnia-Blu-ray/10698/"
+    }
+  ]
+}

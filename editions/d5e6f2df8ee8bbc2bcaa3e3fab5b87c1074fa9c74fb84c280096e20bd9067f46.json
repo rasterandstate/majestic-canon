@@ -1,0 +1,48 @@
+{
+  "movie": {
+    "tmdb_movie_id": 764
+  },
+  "release_year": 2010,
+  "publisher": "anchor_bay",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "A",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "e33053ac534bb48687c7187023d4b000d33e4d1ebc0de8685eb8050d764e798a",
+        "cas_hash": "92cfc9d5946902f336dab25cc4852c6221e46a2bce6921db5ecb713287401d22",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T20:42:41.685Z",
+        "fingerprinted_at": "2026-02-27T20:42:41.685Z"
+      }
+    }
+  ],
+  "upc": "013132146690",
+  "barcode": {
+    "gs1": {
+      "prefix": "0013132",
+      "verified": true
+    },
+    "upc": "013132146690"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "16719",
+      "url": "https://www.blu-ray.com/movies/The-Evil-Dead-Blu-ray/16719/"
+    }
+  ]
+}

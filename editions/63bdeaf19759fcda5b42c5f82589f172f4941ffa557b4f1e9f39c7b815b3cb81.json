@@ -1,0 +1,42 @@
+{
+  "movie": {
+    "tmdb_movie_id": 579047
+  },
+  "release_year": 2021,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "9b34bf570e6bb2b8d157ad74bfc35ad2661bd69911af439779e8347170387605",
+        "cas_hash": "e66725429153c30e01b6469fc38cdc8693c743f8cac76c63c83a4170e64df6a5",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T20:37:15.327Z",
+        "fingerprinted_at": "2026-02-27T20:37:15.327Z"
+      }
+    }
+  ],
+  "upc": "883929726103",
+  "barcode": {
+    "gs1": {
+      "prefix": "0883929",
+      "verified": true,
+      "gs1_status": "inactive"
+    },
+    "upc": "883929726103"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "movie": {
+    "tmdb_movie_id": 116745
+  },
+  "release_year": 2014,
+  "publisher": "fox",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "A",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "fc10eb52c8100a31b3583b09eaf21e5af42b2c7018a3bc04548972bb081445b6",
+        "cas_hash": "f292b1dbdaa020d36c2c6d8a1eb92a639bddce683c321850fe91545bf346f8a4",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T21:05:35.276Z",
+        "fingerprinted_at": "2026-02-27T21:05:35.276Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "DVD",
+      "role": "feature_sd_copy",
+      "disc_count": 1,
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      }
+    }
+  ],
+  "upc": "024543899471",
+  "barcode": {
+    "gs1": {
+      "prefix": "0024543",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "024543899471"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "79007",
+      "url": "https://www.blu-ray.com/movies/The-Secret-Life-of-Walter-Mitty-Blu-ray/79007/"
+    }
+  ]
+}

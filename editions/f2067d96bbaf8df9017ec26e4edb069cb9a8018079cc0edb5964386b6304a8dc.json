@@ -1,0 +1,50 @@
+{
+  "movie": {
+    "tmdb_movie_id": 766
+  },
+  "release_year": 2009,
+  "publisher": "universal",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "35564bf799de0fa8f0334e5b152b6f2fe6a11a4f06c8021fcf91bf4a76f3f0af",
+        "cas_hash": "28e7a1e474102f2345dd26d667f03623c422ff21308653038c3e7dfe84b9aa8a",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T20:47:21.801Z",
+        "fingerprinted_at": "2026-02-27T20:47:21.801Z"
+      }
+    }
+  ],
+  "upc": "025192019968",
+  "barcode": {
+    "gs1": {
+      "prefix": "0025192",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "025192019968"
+  },
+  "notes": "Screwhead Edition",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "4142",
+      "url": "https://www.blu-ray.com/movies/Army-of-Darkness-Blu-ray/4142/"
+    }
+  ]
+}

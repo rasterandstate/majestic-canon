@@ -1,0 +1,53 @@
+{
+  "movie": {
+    "tmdb_movie_id": 539
+  },
+  "release_year": 2010,
+  "publisher": "universal",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "776ae6bd7907f800a66f83e0e9b40ac77d0f5c6656be852b255db91f455d3d80",
+        "cas_hash": "63387f6d572b6c33e58deaa674c5e03d8df4e0bce39a33a197e609891c8924bc",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:10:35.786Z",
+        "fingerprinted_at": "2026-02-27T22:10:35.786Z"
+      }
+    }
+  ],
+  "upc": "025192046827",
+  "barcode": {
+    "gs1": {
+      "prefix": "0025192",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "025192046827"
+  },
+  "edition_tags": [
+    "anniversary"
+  ],
+  "notes": "50th Anniversary Edition",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "7741",
+      "url": "https://www.blu-ray.com/movies/Psycho-Blu-ray/7741/"
+    }
+  ]
+}

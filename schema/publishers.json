@@ -33,6 +33,15 @@
     "country": "USA"
   },
   {
+    "publisher_id": "universal_studios_home_entertainment",
+    "display_name": "Universal Studios Home Entertainment",
+    "aliases": ["universal studios home entertainment", "universal home video, inc."],
+    "country": "USA",
+    "active": false,
+    "parent_company": "universal",
+    "notes": "Universal home video imprint; later rebranded as Universal Pictures Home Entertainment."
+  },
+  {
     "publisher_id": "paramount",
     "display_name": "Paramount Pictures",
     "aliases": [
@@ -51,8 +60,17 @@
   {
     "publisher_id": "disney",
     "display_name": "Walt Disney Studios Home Entertainment",
-    "aliases": ["disney", "walt disney", "buena vista"],
+    "aliases": ["disney", "walt disney"],
     "country": "USA"
+  },
+  {
+    "publisher_id": "buena_vista_home_entertainment",
+    "display_name": "Buena Vista Home Entertainment",
+    "aliases": ["buena vista", "buena vista home entertainment", "buena vista home entertainment, inc."],
+    "country": "USA",
+    "active": false,
+    "parent_company": "disney",
+    "notes": "Disney home video imprint; later rebranded as Walt Disney Studios Home Entertainment."
   },
   {
     "publisher_id": "lionsgate",

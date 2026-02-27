@@ -1,0 +1,53 @@
+{
+  "movie": {
+    "tmdb_movie_id": 765
+  },
+  "release_year": 2011,
+  "publisher": "lionsgate",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "A",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "fe29048208fa869424fe4ee32a66dfa54dd72320a6029038276c83cc02864e08",
+        "cas_hash": "3e36374e69f82e56bf89c257d7555ee3b2cd979370873a98eb2d4e239b445089",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T20:45:24.410Z",
+        "fingerprinted_at": "2026-02-27T20:45:24.410Z"
+      }
+    }
+  ],
+  "upc": "012236116233",
+  "barcode": {
+    "gs1": {
+      "prefix": "0012236",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "012236116233"
+  },
+  "edition_tags": [
+    "anniversary"
+  ],
+  "notes": "25th Anniversary Edition",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "27439",
+      "url": "https://www.blu-ray.com/movies/Evil-Dead-2-Blu-ray/27439/"
+    }
+  ]
+}

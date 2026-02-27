@@ -1,0 +1,60 @@
+{
+  "movie": {
+    "tmdb_movie_id": 240832
+  },
+  "release_year": 2015,
+  "publisher": "universal",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "feb45fdfc88b70f36c42563a5b2009eebf04fa7e852eb6d3e9c0143a26bcbec8",
+        "cas_hash": "63cab9a36c6743def308088569569bf0233da4e90e4680f09efc17ede573c74c",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T21:53:40.691Z",
+        "fingerprinted_at": "2026-02-27T21:53:40.691Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "DVD",
+      "role": "feature_sd_copy",
+      "disc_count": 1,
+      "region": "UNKNOWN",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      }
+    }
+  ],
+  "upc": "025192234019",
+  "barcode": {
+    "gs1": {
+      "prefix": "0025192",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "025192234019"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "108026",
+      "url": "https://www.blu-ray.com/movies/Lucy-Blu-ray/108026/"
+    }
+  ]
+}

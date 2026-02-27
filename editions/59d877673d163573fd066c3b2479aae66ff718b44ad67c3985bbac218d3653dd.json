@@ -1,0 +1,49 @@
+{
+  "movie": {
+    "tmdb_movie_id": 9798
+  },
+  "release_year": 2026,
+  "publisher": "buena_vista_home_entertainment",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "A",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "9e53016b500692283713e9f9943d610505185c3517fba8487a9c83f036565de6",
+        "cas_hash": "e8fc83c56ff8b939dd964b8c1f3e87d69288cd266e65f10dd3b051559a07a88f",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:00:23.790Z",
+        "fingerprinted_at": "2026-02-27T22:00:23.790Z"
+      }
+    }
+  ],
+  "upc": "786936724936",
+  "barcode": {
+    "gs1": {
+      "prefix": "0786936",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "786936724936"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "173",
+      "url": "https://www.blu-ray.com/movies/Enemy-of-the-State-Blu-ray/173/"
+    }
+  ]
+}

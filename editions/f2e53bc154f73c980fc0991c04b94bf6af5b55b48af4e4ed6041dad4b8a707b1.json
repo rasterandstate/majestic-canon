@@ -1,0 +1,49 @@
+{
+  "movie": {
+    "tmdb_movie_id": 228967
+  },
+  "release_year": 2015,
+  "publisher": "sony",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "unknown",
+      "disc_count": 1,
+      "region": "A",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "2a19bf687b68f6d3abef0688e6acb589999719aab7a1e31df64e216a8613d824",
+        "cas_hash": "989e979fe33c3dd56ecab238332c98a6ac8ce1de0861d40adb036989119a9daa",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:31:51.741Z",
+        "fingerprinted_at": "2026-02-27T22:31:51.741Z"
+      }
+    }
+  ],
+  "upc": "043396439887",
+  "barcode": {
+    "gs1": {
+      "prefix": "0043396",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "043396439887"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "121699",
+      "url": "https://www.blu-ray.com/movies/The-Interview-Blu-ray/121699/"
+    }
+  ]
+}

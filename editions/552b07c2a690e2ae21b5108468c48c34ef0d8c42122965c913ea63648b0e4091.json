@@ -1,0 +1,42 @@
+{
+  "movie": {
+    "tmdb_movie_id": 77930
+  },
+  "release_year": 2012,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "f50266f0967728ff1ae08aa65fa1498125bee13ffdc73225a5a22cf0fc205bd5",
+        "cas_hash": "31e08e595e6a893ea952c42b7206167dece0f7fc6625835ae083548f4d7ced1e",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:08:22.882Z",
+        "fingerprinted_at": "2026-02-27T22:08:22.882Z"
+      }
+    }
+  ],
+  "upc": "883929249275",
+  "barcode": {
+    "gs1": {
+      "prefix": "0883929",
+      "verified": true,
+      "gs1_status": "inactive"
+    },
+    "upc": "883929249275"
+  }
+}

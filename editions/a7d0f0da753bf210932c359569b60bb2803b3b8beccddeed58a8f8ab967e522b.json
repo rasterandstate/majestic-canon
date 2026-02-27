@@ -1,0 +1,71 @@
+{
+  "movie": {
+    "tmdb_movie_id": 546554
+  },
+  "release_year": 2020,
+  "publisher": "lionsgate",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "A",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "98ed480c382cdc7b37eaab49d95563c86cd3eb3fa119072dfa64b3b21945c18f",
+        "cas_hash": "620a8031151ea47bddda44c384bf94ed20bc5331ed8a42fcc42df6c43cf6d278",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:03:30.159Z",
+        "fingerprinted_at": "2026-02-27T22:03:30.159Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "DVD",
+      "role": "feature_sd_copy",
+      "disc_count": 1,
+      "region": "1",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      },
+      "disc_type": "dvd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.dvd",
+        "structural_hash": "d5566f8f7444a0740a3e9e4dd21fa14a7b54d1e333555203ce7b39c99ace7be1",
+        "cas_hash": "8e20c15c08346377d95bc5a88746b02748095b97ece4949c8b89241774266b71",
+        "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T22:04:44.285Z",
+        "fingerprinted_at": "2026-02-27T22:04:44.285Z"
+      },
+      "region_history": [
+        {
+          "previous": "UNKNOWN",
+          "corrected_to": "1",
+          "corrected_at": "2026-02-27T22:04:44.285Z",
+          "reason": "fingerprint"
+        }
+      ]
+    }
+  ],
+  "upc": "031398314899",
+  "barcode": {
+    "gs1": {
+      "prefix": "0031398",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "031398314899"
+  }
+}
