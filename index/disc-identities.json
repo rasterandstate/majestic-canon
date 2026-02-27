@@ -91,6 +91,16 @@
     "editionId": "edition:v3:db46faaabd96c0eb35968d3b7b85e6931f8a9e5ae396fea3466ec1b87c8d3ab6",
     "discIndex": 3
   },
+  "majestic.optical-disc.dvd:1:478a9fe81733c87cfe92b2dc7ec20d018182375067dec4c0ea0163c44631b155:A": {
+    "editionId": "edition:v3:db46faaabd96c0eb35968d3b7b85e6931f8a9e5ae396fea3466ec1b87c8d3ab6",
+    "discIndex": 4,
+    "surface": "A"
+  },
+  "majestic.optical-disc.dvd:1:86f6a06e70d1a08ab3a936a4a7af826b4071feef78c28f29a72aecaae6b6b5ac:B": {
+    "editionId": "edition:v3:db46faaabd96c0eb35968d3b7b85e6931f8a9e5ae396fea3466ec1b87c8d3ab6",
+    "discIndex": 4,
+    "surface": "B"
+  },
   "majestic.optical-disc.bluray:1:19974ffadb80cabac496917992725a4d8752209bb08a12413f847ffb22d0942d": {
     "editionId": "edition:v3:df8e04fdc451f2e298da589ddcdb474cd8d6cf7ccc41d4299ca2311f2a1288ad",
     "discIndex": 0

@@ -161,6 +161,17 @@
           "notes": {
             "type": "string"
           },
+          "region": {
+            "type": "string",
+            "description": "Per-surface region for double-sided DVDs. Each side can have its own region."
+          },
+          "region_history": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/region_history_entry"
+            },
+            "description": "Previous region values when corrected by fingerprint for this surface."
+          },
           "disc_identity": {
             "type": "object",
             "properties": {
