@@ -20,7 +20,11 @@
         "feature",
         "feature_sd_copy",
         "bonus",
+        "digital_copy",
+        "distribution_media",
         "soundtrack",
+        "data",
+        "supplemental",
         "unknown"
       ],
       "default": "unknown",

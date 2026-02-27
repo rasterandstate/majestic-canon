@@ -53,6 +53,10 @@
     "editionId": "edition:v3:5492cb96c92d2d979b821941d68fe944b6b5b14708b2fbb7fce2adf43296cfc5",
     "discIndex": 1
   },
+  "majestic.optical-disc.bluray:1:68afd6086a00d8bd5113c83933a0c1a722654bf035b3eadadd1cc61d858178aa": {
+    "editionId": "edition:v3:56f5e0f85cf646b7425f01a84763ffe461fc99d7e77f46a6f3854b7db886f781",
+    "discIndex": 0
+  },
   "majestic.optical-disc.bluray:1:e6116d67fb3d664b895cdefae36d4ba23eb89d6065edfbb398fc756dcb81aa80": {
     "editionId": "edition:v3:6089b6ccc061d82fa5665027ccd2496cf83a809551fb1ba16447d5af0226028a",
     "discIndex": 0
@@ -65,8 +69,16 @@
     "editionId": "edition:v3:669aa0c9d406e9bb2eeb949cb2efe4caa11e834146179f3356bddaea1857143f",
     "discIndex": 0
   },
+  "majestic.optical-disc.bluray:1:e5d7e2da113e45248787428cd29c471f39ddc410caa7ee2e98c55a5164957b99": {
+    "editionId": "edition:v3:72ea8e057486eb444bfa566633d857dcb935755d9c6ff012b2102035fb2faff1",
+    "discIndex": 0
+  },
   "majestic.optical-disc.bluray:1:14e6b8a75fa7eddaf9fdd4a66257d2a79e309a531a2980a902a488458fbd883b": {
     "editionId": "edition:v3:8a7f995a3b95e956c424603aa6b02ee038338c5c2b139a290d60a8f5910d1fe1",
+    "discIndex": 0
+  },
+  "majestic.optical-disc.bluray:1:b1e71b705424c9c312984f522bf62949e81874f9ea0f89180cb0c6bc04dd4163": {
+    "editionId": "edition:v3:95c4b36c6fb610bec56d442edbaf4d92b5dc9d0764fffb4fa7189e7cd33fd33c",
     "discIndex": 0
   },
   "majestic.optical-disc.bluray:1:2d4ea91d60f46f39f8d90d2df76321abf991dc2e148e82b34b114a05f1357873": {
@@ -93,6 +105,18 @@
     "editionId": "edition:v3:adecd4b526fb9a19cf2b4e1b8c2261484b61dfb2bd88a17a12203597b833294f",
     "discIndex": 0
   },
+  "majestic.optical-disc.bluray:1:5e40e195a624e90512c1faa41693ea8df5967ea44e4364f2a2fb4e917a4f12bf": {
+    "editionId": "edition:v3:c426ec625d57c9bd0c763860df4c223c5c47dd91a7ffe0d08067abbff9aefe50",
+    "discIndex": 0
+  },
+  "majestic.optical-disc.dvd:1:9ccfa36d8567cfa81f4f02c8068490480597384c55b22efeddc60aa3ec9067c3": {
+    "editionId": "edition:v3:c426ec625d57c9bd0c763860df4c223c5c47dd91a7ffe0d08067abbff9aefe50",
+    "discIndex": 1
+  },
+  "majestic.optical-disc.bluray:1:e7aba20043e64cd9ff51c69847220c398d720ef60f1030a0c0a4407e5943b663": {
+    "editionId": "edition:v3:ca9438aa9b3a8e7a0aaea935d3d7c470530d3cc5e8f3479cd59bed61d710522c",
+    "discIndex": 0
+  },
   "majestic.optical-disc.uhd:1:2dbb5a9a2e4a60541b2b99cae61a2b16cf513fb9fb976e56e937a254c15af15b": {
     "editionId": "edition:v3:ceb97e2b988e5878f7d3b03682960e74d6f916c54f30a67e0582382dbd033846",
     "discIndex": 0
@@ -117,6 +141,10 @@
     "editionId": "edition:v3:df8e04fdc451f2e298da589ddcdb474cd8d6cf7ccc41d4299ca2311f2a1288ad",
     "discIndex": 0
   },
+  "majestic.optical-disc.bluray:1:1b61cd3eb1272ce741052fce85d1ec8d19991743235eac9238812552fc82acd7": {
+    "editionId": "edition:v3:e270df885a846f7815bc6c66f6ae66f3e38536be2015036703bb0656ee2eaa5b",
+    "discIndex": 0
+  },
   "majestic.optical-disc.bluray:1:ca47ea514efceaa59be19ba2e90a368cf382c5bc06547b0cb9e51704b4f555d4": {
     "editionId": "edition:v3:efe74b55815877b61f78c1c5c76159e92a5c6dddc4ca4df4fde5461cb2d7fbd8",
     "discIndex": 0
@@ -132,6 +160,10 @@
   "majestic.optical-disc.dvd:1:7cbb6d57a0699386dea199c5e36fd38d8a0a60da688ae09c991161415642cdc6": {
     "editionId": "edition:v3:f2439a323534e5b4390d98a280cfa96195aa66fbfc96c2d1ed8d18a8389865cd",
     "discIndex": 2
+  },
+  "majestic.optical-disc.bluray:1:4174f418fb4027b3fc05511a7ea9260b6c39a82ae04d70436c98e1cf6dd8420a": {
+    "editionId": "edition:v3:f90b7691eaec0d46d9e80fc32c678f47fa795ff5844096d90e19f55c6ff7b8d0",
+    "discIndex": 0
   },
   "majestic.optical-disc.bluray:1:ea76892d1896ed057486f1daab81c1c52809b695741bec6dffcb719324f37dae": {
     "editionId": "edition:v3:faed40f84b724495fe5db1360f5f33fd0cee882be194698df6917d4281800c93",
