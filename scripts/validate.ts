@@ -41,6 +41,27 @@ function validateEdition(file: string, edition: Record<string, unknown>): string
           errors.push(`${file}: disc ${i + 1} variant.duplicate_of_disc ${dup} exceeds edition disc count ${discs.length}`);
         }
       }
+      const surfaces = d?.surfaces as Array<{ side?: string }> | undefined;
+      if (Array.isArray(surfaces) && surfaces.length > 0) {
+        const fmt = (d?.format ?? '').toString().toUpperCase();
+        if (fmt !== 'DVD') {
+          errors.push(`${file}: disc ${i + 1} surfaces only allowed when format=DVD, got ${fmt}`);
+        }
+        const sides = new Set<string>();
+        for (const s of surfaces) {
+          const side = (s?.side ?? '').toString().trim().toUpperCase();
+          if (side !== 'A' && side !== 'B') {
+            errors.push(`${file}: disc ${i + 1} surface side must be A or B, got "${s?.side}"`);
+          } else if (sides.has(side)) {
+            errors.push(`${file}: disc ${i + 1} duplicate surface side ${side}`);
+          } else {
+            sides.add(side);
+          }
+        }
+        if (surfaces.length > 2) {
+          errors.push(`${file}: disc ${i + 1} surfaces max 2, got ${surfaces.length}`);
+        }
+      }
     }
   }
 

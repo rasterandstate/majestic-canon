@@ -123,6 +123,84 @@
           "type": "string"
         }
       }
+    },
+    "surfaces": {
+      "type": "array",
+      "description": "Optional per-surface metadata for double-sided DVDs. Only when format=DVD.",
+      "minItems": 1,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "side"
+        ],
+        "properties": {
+          "side": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B"
+            ]
+          },
+          "video_type": {
+            "type": "string",
+            "enum": [
+              "2D",
+              "3D",
+              "both"
+            ]
+          },
+          "content_scope": {
+            "type": "string",
+            "enum": [
+              "feature",
+              "bonus",
+              "mixed"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          },
+          "disc_identity": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "structural_hash": {
+                "type": "string"
+              },
+              "cas_hash": {
+                "type": "string"
+              },
+              "hash_algorithm": {
+                "type": "string"
+              },
+              "version": {
+                "type": "number"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "fingerprinted_at": {
+                "type": "string"
+              },
+              "last_verified_at": {
+                "type": "string"
+              },
+              "verification_count": {
+                "type": "integer"
+              }
+            }
+          },
+          "fingerprint_history": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        }
+      }
     }
   },
   "$defs": {
