@@ -1,0 +1,136 @@
+{
+  "movie": {
+    "tmdb_movie_id": 630
+  },
+  "release_year": 2013,
+  "publisher": "warner_bros",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "ABC",
+      "variant": {
+        "video_type": "3D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "f4089630be4677289174e2dc4f425faa133f09c778ea99bf05e94516ee137cb5",
+        "cas_hash": "2ee575593af971374f27dd7b74d00a8591c7bf404d5bc5a9c6c96f3984e7bb11",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T02:28:06.376Z",
+        "fingerprinted_at": "2026-02-27T02:28:06.376Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "ABC",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "5d9a32b18e87177e60cda9c2a138e268a30437f3aa91c63f2d4bb95cd26b9304",
+        "cas_hash": "71a291cfc39de523017360bec701939dbaf11a2c86f73089c028ec3a74ab7e2a",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T02:36:21.769Z",
+        "fingerprinted_at": "2026-02-27T02:36:21.769Z"
+      }
+    },
+    {
+      "slot": 3,
+      "format": "BLURAY",
+      "role": "bonus",
+      "disc_count": 1,
+      "region": "ABC",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "bonus"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "9ab885706e4e4860f469fd72c68d5dd18f72ee256a0a56ffc167920580dbe749",
+        "cas_hash": "8a40cb9225faa630c6e5b8f33c6d0727a546edd125259f4bc1707d62948230b6",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T02:37:13.769Z",
+        "fingerprinted_at": "2026-02-27T02:37:13.769Z"
+      }
+    },
+    {
+      "slot": 4,
+      "format": "DVD",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "1",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "dvd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.dvd",
+        "structural_hash": "8da93e840c2910330d461b4294ee17ee2ee693045d842109c72c0d1846242a45",
+        "cas_hash": "f3bf1d177fe381d375392995840bb1e3bf96fe5c8562cbd81b1f48d8beca498b",
+        "hash_algorithm": "sha256(sorted_ifo_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T02:38:06.908Z",
+        "fingerprinted_at": "2026-02-27T02:38:06.908Z"
+      },
+      "region_history": [
+        {
+          "previous": "UNKNOWN",
+          "corrected_to": "1",
+          "corrected_at": "2026-02-27T02:38:06.908Z",
+          "reason": "fingerprint"
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "format": "DVD",
+      "role": "bonus",
+      "disc_count": 1,
+      "region": "UNKNOWN",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "bonus"
+      }
+    }
+  ],
+  "upc": "883929333349",
+  "barcode": {
+    "gs1": {
+      "prefix": "0883929",
+      "verified": true,
+      "gs1_status": "inactive"
+    },
+    "upc": "883929333349"
+  },
+  "edition_tags": [
+    "3d",
+    "anniversary"
+  ],
+  "notes": "75th Anniversary Collector's Edition",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "98221",
+      "url": "https://www.blu-ray.com/movies/The-Wizard-of-Oz-3D-Blu-ray/98221/"
+    }
+  ]
+}
