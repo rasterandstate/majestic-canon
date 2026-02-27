@@ -2,26 +2,30 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://majestic.canon/schema/edition-disc-slot",
   "title": "Edition Disc Slot",
-  "description": "Single disc slot in edition.discs[index]",
+  "description": "Single disc slot in edition.discs[index]. Slot is 1-indexed. Role is explicit metadata. For legacy: slot defaults to index+1, role to 'unknown'.",
   "type": "object",
   "properties": {
+    "slot": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "1-indexed physical slot. Required for new editions. Legacy: inferred from array index."
+    },
     "format": {
       "type": "string",
       "description": "BLURAY, DVD, UHD, OTHER"
     },
-    "region": {
-      "type": "string"
-    },
     "role": {
+      "type": "string",
+      "enum": ["feature", "feature_sd_copy", "bonus", "soundtrack", "unknown"],
+      "default": "unknown",
+      "description": "Explicit disc role. Never inferred. Default 'unknown' for legacy."
+    },
+    "region": {
       "type": "string"
     },
     "disc_type": {
       "type": "string",
-      "enum": [
-        "dvd",
-        "bluray",
-        "uhd"
-      ],
+      "enum": ["dvd", "bluray", "uhd"],
       "description": "From fingerprint identity.type only. Never inferred from format."
     },
     "disc_count": {
@@ -35,24 +39,12 @@
           "type": "string",
           "description": "Identity type from fingerprint (e.g. majestic.optical-disc.dvd)"
         },
-        "structural_hash": {
-          "type": "string"
-        },
-        "cas_hash": {
-          "type": "string"
-        },
-        "hash_algorithm": {
-          "type": "string"
-        },
-        "version": {
-          "type": "number"
-        },
-        "generated_at": {
-          "type": "string"
-        },
-        "fingerprinted_at": {
-          "type": "string"
-        },
+        "structural_hash": { "type": "string" },
+        "cas_hash": { "type": "string" },
+        "hash_algorithm": { "type": "string" },
+        "version": { "type": "number" },
+        "generated_at": { "type": "string" },
+        "fingerprinted_at": { "type": "string" },
         "last_verified_at": {
           "type": "string",
           "description": "ISO timestamp of last physical verification (idempotent re-fingerprint)"
@@ -65,16 +57,12 @@
     },
     "fingerprint_history": {
       "type": "array",
-      "items": {
-        "$ref": "#/$defs/fingerprint_history_entry"
-      },
+      "items": { "$ref": "#/$defs/fingerprint_history_entry" },
       "description": "Previous fingerprints when overwritten. Full provenance. Do not lose historical fingerprints."
     },
     "region_history": {
       "type": "array",
-      "items": {
-        "$ref": "#/$defs/region_history_entry"
-      },
+      "items": { "$ref": "#/$defs/region_history_entry" },
       "description": "Previous region values when corrected by fingerprint. Disc is authoritative."
     }
   },
@@ -82,71 +70,28 @@
     "disc_identity": {
       "type": "object",
       "properties": {
-        "type": {
-          "type": "string"
-        },
-        "structural_hash": {
-          "type": "string"
-        },
-        "cas_hash": {
-          "type": "string"
-        },
-        "hash_algorithm": {
-          "type": "string"
-        },
-        "version": {
-          "type": "number"
-        },
-        "generated_at": {
-          "type": "string"
-        },
-        "fingerprinted_at": {
-          "type": "string"
-        },
-        "last_verified_at": {
-          "type": "string"
-        },
-        "verification_count": {
-          "type": "integer"
-        }
+        "type": { "type": "string" },
+        "structural_hash": { "type": "string" },
+        "cas_hash": { "type": "string" },
+        "hash_algorithm": { "type": "string" },
+        "version": { "type": "number" },
+        "generated_at": { "type": "string" },
+        "fingerprinted_at": { "type": "string" },
+        "last_verified_at": { "type": "string" },
+        "verification_count": { "type": "integer" }
       }
     },
     "fingerprint_history_entry": {
       "type": "object",
-      "required": [
-        "structural_hash",
-        "cas_hash",
-        "hash_algorithm",
-        "fingerprinted_at",
-        "reason"
-      ],
+      "required": ["structural_hash", "cas_hash", "hash_algorithm", "fingerprinted_at", "reason"],
       "properties": {
-        "type": {
-          "type": "string"
-        },
-        "version": {
-          "type": "number"
-        },
-        "structural_hash": {
-          "type": "string"
-        },
-        "cas_hash": {
-          "type": "string"
-        },
-        "hash_algorithm": {
-          "type": "string"
-        },
-        "fingerprinted_at": {
-          "type": "string"
-        },
-        "reason": {
-          "type": "string",
-          "enum": [
-            "overwrite",
-            "algorithm_upgrade",
-            "manual_correction"
-          ]
-        }
+        "type": { "type": "string" },
+        "version": { "type": "number" },
+        "structural_hash": { "type": "string" },
+        "cas_hash": { "type": "string" },
+        "hash_algorithm": { "type": "string" },
+        "fingerprinted_at": { "type": "string" },
+        "reason": { "type": "string", "enum": ["overwrite", "algorithm_upgrade", "manual_correction"] }
       }
     },
     "region_history_entry": {

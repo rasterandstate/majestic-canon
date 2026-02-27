@@ -3,11 +3,66 @@
  * Canon integrity validation. Run before build (canon-tools will invoke this).
  * Exits 0 on success, 1 on failure.
  */
-import { readFileSync, existsSync } from 'fs';
+import { readFileSync, existsSync, readdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
+
+const VALID_ROLES = new Set(['feature', 'feature_sd_copy', 'bonus', 'soundtrack', 'unknown']);
+const HEX64 = /^[a-fA-F0-9]{64}$/;
+
+function validateEdition(file: string, edition: Record<string, unknown>): string[] {
+  const errors: string[] = [];
+  const discs = edition.discs as Array<Record<string, unknown>> | undefined;
+  const discStructures = edition.disc_structures as Record<string, { slot?: number; role?: string }> | undefined;
+
+  if (Array.isArray(discs)) {
+    const slots = new Set<number>();
+    for (let i = 0; i < discs.length; i++) {
+      const d = discs[i];
+      const slot = typeof d?.slot === 'number' ? d.slot : i + 1;
+      if (slots.has(slot)) {
+        errors.push(`${file}: duplicate slot ${slot} in discs`);
+      }
+      slots.add(slot);
+      const role = (d?.role ?? 'unknown').toString().trim().toLowerCase();
+      if (!VALID_ROLES.has(role)) {
+        errors.push(`${file}: disc ${i + 1} has invalid role "${d?.role}"`);
+      }
+    }
+  }
+
+  if (discStructures != null && typeof discStructures === 'object') {
+    const slotToHash = new Map<number, string>();
+    const discCount = Array.isArray(discs) ? discs.length : 0;
+    for (const [hash, mapping] of Object.entries(discStructures)) {
+      if (!HEX64.test(hash)) {
+        errors.push(`${file}: disc_structures key must be 64-char sha256 hex, got "${hash.slice(0, 16)}..."`);
+      }
+      if (mapping == null || typeof mapping !== 'object') continue;
+      const slot = mapping.slot;
+      if (typeof slot !== 'number' || slot < 1) {
+        errors.push(`${file}: disc_structures["${hash.slice(0, 12)}..."] has invalid slot`);
+      } else if (slot > discCount) {
+        errors.push(`${file}: disc_structures maps to slot ${slot} but edition has only ${discCount} disc(s)`);
+      } else {
+        const existing = slotToHash.get(slot);
+        if (existing) {
+          errors.push(`${file}: two structural hashes map to same slot ${slot}`);
+        } else {
+          slotToHash.set(slot, hash);
+        }
+      }
+      const role = (mapping.role ?? 'unknown').toString().trim().toLowerCase();
+      if (!VALID_ROLES.has(role)) {
+        errors.push(`${file}: disc_structures["${hash.slice(0, 12)}..."] has invalid role "${mapping.role}"`);
+      }
+    }
+  }
+
+  return errors;
+}
 
 function main(): number {
   let failed = false;
@@ -47,6 +102,29 @@ function main(): number {
     }
   } catch {
     // identity-contract not installed; skip
+  }
+
+  // 3. Validate editions: no duplicate slots, valid roles, disc_structures rules
+  const editionsDir = join(ROOT, 'editions');
+  if (existsSync(editionsDir)) {
+    const files = readdirSync(editionsDir).filter((f) => f.endsWith('.json'));
+    for (const file of files) {
+      try {
+        const raw = readFileSync(join(editionsDir, file), 'utf-8');
+        const data = JSON.parse(raw);
+        const items = Array.isArray(data) ? data : [data];
+        for (const item of items) {
+          const errs = validateEdition(file, item as Record<string, unknown>);
+          for (const e of errs) {
+            console.error('FAIL:', e);
+            failed = true;
+          }
+        }
+      } catch (e) {
+        console.error('FAIL:', file, ':', e);
+        failed = true;
+      }
+    }
   }
 
   if (failed) return 1;
