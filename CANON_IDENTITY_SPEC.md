@@ -45,12 +45,11 @@ Majestic is **collector-centric** and **packaging-accurate**. These decisions ar
 - Arrays are ordered as provided. No auto-sort by format.
 - Curator is responsible for canonical ordering. Swapping disc order changes identity.
 
-### 2.5 Box Sets
-**Future vNext:** Box sets containing multiple films require explicit definition:
-- Either separate editions per movie, or
-- A special multi-movie edition type.
-
-Current model: One Edition → one MovieRef. Multi-film box sets not yet modeled.
+### 2.5 Multi-Movie Editions (v4)
+**Implemented v4:** Editions may reference one or more movies.
+- `movies` array (min 1 entry). Sorted by `tmdb_movie_id` for canonical identity.
+- Each disc may optionally include `movie_tmdb_id` to map to a specific movie.
+- Legacy `movie` is migrated to `movies: [{ tmdb_movie_id }]` on load.
 
 ---
 
@@ -72,7 +71,7 @@ Rules:
 A specific released product variant (e.g., UHD Steelbook, Criterion Blu-ray, Region B keepcase).
 
 Core fields (identity-significant unless noted):
-- `movie` (MovieRef, required) — `tmdb_movie_id` participates in identity.
+- `movies` (array of MovieRef, required, min 1) — sorted by `tmdb_movie_id` for identity. Legacy `movie` migrated to 1-element array.
 - `release_year` (integer, required) — Year of first commercial release for that SKU, not reprint year.
 - `publisher` (string, required) — Normalized via publisher registry.
 - `packaging` (object, required)
@@ -92,6 +91,7 @@ Fields (identity-significant unless noted):
 - `format` (enum: UHD, BLURAY, DVD, CD, OTHER)
 - `disc_count` (integer, required)
 - `region` (optional) — Playback region. Omit = region-free or unspecified. Use `UNKNOWN` when curator researched but could not determine. Do not collapse unknown into region-free.
+- `movie_tmdb_id` (optional) — Maps this disc to a specific movie in `movies[]`. When present, must exist in edition movies. Omit when disc contains multiple films.
 - `languages` — NOT identity-significant (collector-level model).
 
 ### 3.3 Region Mapping
@@ -119,7 +119,7 @@ Publisher registry prevents spelling drift. Edition.publisher stored as `publish
     { "disc_count": 1, "format": "UHD", "region": "REGION_FREE" }
   ],
   "edition_tags": ["director_cut"],
-  "movie": { "tmdb_movie_id": 123 },
+  "movies": [{ "tmdb_movie_id": 123 }],
   "packaging": { "type": "steelbook" },
   "publisher": "criterion",
   "release_year": 2022,
@@ -130,12 +130,15 @@ Publisher registry prevents spelling drift. Edition.publisher stored as `publish
 ### 4.2 Hash Algorithm
 - Input: UTF-8 canonical JSON
 - Hash: SHA-256, lowercase hex
-- Identity string: `edition:v3:<sha256hex>`
+- Identity string: `edition:v<version>:<sha256hex>`
+
+**Current:** New identities use v4. v1/v2/v3 are legacy only; redirects map them to v4.
 
 Version history:
 - v1: edition.region in identity
 - v2: region moved to disc
 - v3: UPC in identity when present
+- v4: movies[] array (sorted by tmdb_movie_id). Discs may include optional movie_tmdb_id. **Current.**
 
 ---
 
@@ -168,18 +171,29 @@ Decide before ingesting large datasets. Migrations become political after scale.
 **Edition identity is the primary key. Movie ID is a foreign key.**
 
 - Each edition file is keyed by identity hash: `editions/<sha256hex>.json`
-- Filename derives from `edition:v3:<hex>` → `<hex>.json`
+- Filename derives from identity string (e.g. `edition:v4:<hex>`) → `<hex>.json`
 - Multiple editions per movie (region variants, packaging, UPC) are preserved as separate files
 - File overwrites occur only when identity matches (same hash)
 - Hash collision = real collision (structurally impossible with SHA-256 in practice)
 
 ---
 
-## 8. Identity Redirects (Contract)
+## 8. Legacy Normalizer Freeze
+
+**Do not modify** `normalizeUpc`, `normalizeTag`, `canonicalStringify`, or region normalization logic without either:
+
+1. Snapshotting legacy versions for v1/v2/v3 hashing, or
+2. Versioning those normalizers explicitly (e.g. `normalizeUpcV1`, `normalizeUpcV4`).
+
+v1/v2/v3 hash computation relies on these shared functions. Changing them silently breaks redirect generation — legacy hashes will no longer match `identity_redirects.json`. The `legacyIdentitySnapshot.test.ts` fixture in canon-tools asserts v1/v2/v3 hashes never change. If that test fails, history has been rewritten.
+
+---
+
+## 9. Identity Redirects (Contract)
 
 - Canon publishes `identity_redirects.json` at repo root.
 - When an edition is updated and identity changes (e.g. region, UPC), the old hash is added to redirects pointing to the new hash. Clients resolve before 404.
-- Maps old identity strings (edition:v1|v2|v3) to current (edition:v3).
+- Maps old identity strings (edition:v1|v2|v3) to current (edition:v4).
 - **Clients** must resolve requested ID via redirects before returning 404.
 - Chains are flattened: all old IDs point directly to current.
 - Redirect resolution is non-identity-significant metadata.
