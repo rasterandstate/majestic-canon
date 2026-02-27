@@ -1,0 +1,62 @@
+{
+  "movies": [
+    {
+      "tmdb_movie_id": 17654
+    }
+  ],
+  "release_year": 2009,
+  "publisher": "sony",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "a05f6260c0cb9e3491920726ce1083fc29d71847ca4d68cb44485e8dd2741437",
+        "cas_hash": "56c65125811b72f19a387e6c1c9b9462284017b37a21dbafe931b9ea7fab375f",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T23:20:03.212Z",
+        "fingerprinted_at": "2026-02-27T23:20:03.212Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "DVD",
+      "role": "digital_copy",
+      "disc_count": 1,
+      "region": "none",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      }
+    }
+  ],
+  "upc": "043396292260",
+  "barcode": {
+    "gs1": {
+      "prefix": "0043396",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "043396292260"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "7594",
+      "url": "https://www.blu-ray.com/movies/District-9-Blu-ray/7594/"
+    }
+  ]
+}

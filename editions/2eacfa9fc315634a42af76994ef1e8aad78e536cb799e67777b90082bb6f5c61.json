@@ -1,0 +1,78 @@
+{
+  "movies": [
+    {
+      "tmdb_movie_id": 8872
+    },
+    {
+      "tmdb_movie_id": 8873
+    }
+  ],
+  "release_year": 2018,
+  "publisher": "paramount",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "ABC",
+      "movie_tmdb_id": 8872,
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "bac88dee4e39ddfc4920fd465dd9de746a048428362bf1ce5dea1639398078d7",
+        "cas_hash": "ff4f9365c4f6d6043c8ad310231aaf551fd26c1413271bb9012495d9de60d648",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T23:10:34.210Z",
+        "fingerprinted_at": "2026-02-27T23:10:34.210Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "ABC",
+      "movie_tmdb_id": 8873,
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "7d13a0859453a35e9fafb26a98a6ccbacedf8fefb9cadf5851bd873949c7c032",
+        "cas_hash": "cf0c2f21dffdfde913efcd37e6ba397457d5bbc4d82f917a8d806697cc009487",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-27T23:12:20.966Z",
+        "fingerprinted_at": "2026-02-27T23:12:20.966Z"
+      }
+    }
+  ],
+  "upc": "032429303677",
+  "barcode": {
+    "gs1": {
+      "prefix": "0032429",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "032429303677"
+  },
+  "notes": "Wal-Mart Exclusive",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "200390",
+      "url": "https://www.blu-ray.com/movies/Waynes-World-and-Waynes-World-2-Blu-ray/200390/"
+    }
+  ]
+}
