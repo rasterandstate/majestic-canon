@@ -19,6 +19,16 @@
       "variant": {
         "video_type": "2D",
         "content_scope": "feature"
+      },
+      "disc_type": "uhd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.uhd",
+        "structural_hash": "b2cb79054bd3f48a1745dae5afa389c2bee79e21a12e0b7606f6065641f7b55d",
+        "cas_hash": "aa2fda044a3bbb543ce8f85bfb46bc181f15aaf312fb6306f7c34ba94f8dab6d",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-28T01:04:57.571Z",
+        "fingerprinted_at": "2026-02-28T01:04:57.571Z"
       }
     },
     {
@@ -30,6 +40,16 @@
       "variant": {
         "video_type": "2D",
         "content_scope": "feature"
+      },
+      "disc_type": "uhd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.uhd",
+        "structural_hash": "ee7c10a90832990efeaa2b3e17a2781abebaeb42bcce9aafacbf6128561ab33e",
+        "cas_hash": "64ab851129db6b62bc4bba84eab9993ae98ba4734cac10cbb7f893bc0dce759c",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-28T01:05:38.922Z",
+        "fingerprinted_at": "2026-02-28T01:05:38.922Z"
       }
     }
   ],

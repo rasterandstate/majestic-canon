@@ -1,0 +1,97 @@
+{
+  "movies": [
+    {
+      "tmdb_movie_id": 10681
+    }
+  ],
+  "release_year": 2022,
+  "publisher": "criterion",
+  "packaging": {
+    "type": "digipak"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "UHD",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      },
+      "disc_type": "uhd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.uhd",
+        "structural_hash": "eed9c4b5a4406cf4fa4dac21e85708cfd68d247775d03355aebdc345a785f4f0",
+        "cas_hash": "f52bf6c8cb065bb92125819993f59285beb63067d935cbee5c998b9847eb5b4c",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-28T01:25:23.972Z",
+        "fingerprinted_at": "2026-02-28T01:25:23.972Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "ABC",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      },
+      "disc_type": "uhd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.uhd",
+        "structural_hash": "03a1d8b55067722c753c40a8c7b0dd94a186a19f052f609008eddfcd54968c31",
+        "cas_hash": "fb89f7f563680f77730a604b8958bca94451e06485f40ead1edf23a56118eeb6",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-28T01:26:13.333Z",
+        "fingerprinted_at": "2026-02-28T01:26:13.333Z"
+      }
+    },
+    {
+      "slot": 3,
+      "format": "BLURAY",
+      "role": "bonus",
+      "disc_count": 1,
+      "region": "ABC",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "bonus"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "7a8f4e529e7dff92d950edb37a1c07d7042e63ef440fa8dd4a8f46d9a0fad91b",
+        "cas_hash": "df1962467ce57d3e58cd9bbdb478736702e6d74f1f6cbb4322a9892644c497df",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-28T01:26:48.814Z",
+        "fingerprinted_at": "2026-02-28T01:26:48.814Z"
+      }
+    }
+  ],
+  "upc": "715515279413",
+  "barcode": {
+    "gs1": {
+      "prefix": "0715515",
+      "verified": true
+    },
+    "upc": "715515279413"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "323659",
+      "url": "https://www.blu-ray.com/movies/WALL-E-4K-Blu-ray/323659/"
+    },
+    {
+      "source": "criterion.com",
+      "id": "33246",
+      "url": "https://www.criterion.com/films/33246-wall-e"
+    }
+  ]
+}

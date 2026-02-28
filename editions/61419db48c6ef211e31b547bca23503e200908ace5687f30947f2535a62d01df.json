@@ -1,0 +1,34 @@
+{
+  "movies": [
+    {
+      "tmdb_movie_id": 10138
+    }
+  ],
+  "release_year": 2010,
+  "publisher": "paramount",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      }
+    }
+  ],
+  "upc": "097360991048",
+  "barcode": {
+    "gs1": {
+      "prefix": "0097360",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "097360991048"
+  }
+}

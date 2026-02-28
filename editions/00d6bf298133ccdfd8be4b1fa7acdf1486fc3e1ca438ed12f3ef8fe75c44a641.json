@@ -1,0 +1,59 @@
+{
+  "movies": [
+    {
+      "tmdb_movie_id": 68721
+    }
+  ],
+  "release_year": 2013,
+  "publisher": "buena_vista_home_entertainment",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "3D",
+        "content_scope": "feature"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      }
+    },
+    {
+      "slot": 3,
+      "format": "DVD",
+      "role": "bonus",
+      "disc_count": 1,
+      "region": "UNKNOWN",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "bonus"
+      }
+    }
+  ],
+  "upc": "786936836721",
+  "barcode": {
+    "gs1": {
+      "prefix": "0786936",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "786936836721"
+  },
+  "edition_tags": [
+    "3d"
+  ]
+}

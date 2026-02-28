@@ -24,6 +24,7 @@
       "format": "UHD",
       "role": "feature",
       "disc_count": 1,
+      "region": "FREE",
       "movie_tmdb_id": 106,
       "variant": {
         "video_type": "2D",
@@ -45,6 +46,7 @@
       "format": "UHD",
       "role": "feature",
       "disc_count": 1,
+      "region": "FREE",
       "movie_tmdb_id": 169,
       "variant": {
         "video_type": "2D",
@@ -66,6 +68,7 @@
       "format": "UHD",
       "role": "feature",
       "disc_count": 1,
+      "region": "FREE",
       "movie_tmdb_id": 34851,
       "variant": {
         "video_type": "2D",
@@ -87,10 +90,21 @@
       "format": "UHD",
       "role": "feature",
       "disc_count": 1,
+      "region": "FREE",
       "movie_tmdb_id": 346910,
       "variant": {
         "video_type": "2D",
         "content_scope": "feature"
+      },
+      "disc_type": "uhd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.uhd",
+        "structural_hash": "f44fc8dead11aee3388445863f1afa113d224119281863fd84f1716a06305752",
+        "cas_hash": "d17d004f62d918ca4fcfb11a406332a841112dc238f6f3404b15f3373a4acb77",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-28T01:00:23.641Z",
+        "fingerprinted_at": "2026-02-28T01:00:23.641Z"
       }
     },
     {
@@ -98,6 +112,7 @@
       "format": "BLURAY",
       "role": "feature",
       "disc_count": 1,
+      "region": "ABC",
       "movie_tmdb_id": 106,
       "variant": {
         "video_type": "2D",
@@ -119,10 +134,21 @@
       "format": "BLURAY",
       "role": "feature",
       "disc_count": 1,
+      "region": "ABC",
       "movie_tmdb_id": 169,
       "variant": {
         "video_type": "2D",
         "content_scope": "feature"
+      },
+      "disc_type": "uhd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.uhd",
+        "structural_hash": "32632e36548541a6b649432f84ef1d74f38c6172a1cb4296f940a8d4d6c9ca6b",
+        "cas_hash": "25debdbb9935e041212515366f908e710c7c656e010a3d2eb61964afc64fa690",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-28T01:01:25.487Z",
+        "fingerprinted_at": "2026-02-28T01:01:25.487Z"
       }
     },
     {
@@ -130,10 +156,21 @@
       "format": "BLURAY",
       "role": "feature",
       "disc_count": 1,
+      "region": "ABC",
       "movie_tmdb_id": 34851,
       "variant": {
         "video_type": "2D",
         "content_scope": "feature"
+      },
+      "disc_type": "uhd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.uhd",
+        "structural_hash": "f5d9bd4a0fd038681d3d51282f0caa5bbe7a22856ed7ef9eeec16a1e9ba8c618",
+        "cas_hash": "7cda214465b29a25bf764307da7c8200354ee05fc33743e7730e3604c3fea850",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-28T01:02:11.532Z",
+        "fingerprinted_at": "2026-02-28T01:02:11.532Z"
       }
     },
     {
@@ -141,10 +178,21 @@
       "format": "BLURAY",
       "role": "feature",
       "disc_count": 1,
+      "region": "ABC",
       "movie_tmdb_id": 346910,
       "variant": {
         "video_type": "2D",
         "content_scope": "feature"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "a9b900f9d600c6cc77c65674689aa7ccd4842714c55c87ee2f6140db62647b9f",
+        "cas_hash": "ba90a7df62ce809f2b7fd57a1603ddd7c4c358e62195465edd79d2a326dcc583",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-28T01:03:13.417Z",
+        "fingerprinted_at": "2026-02-28T01:03:13.417Z"
       }
     }
   ],

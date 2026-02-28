@@ -1,0 +1,41 @@
+{
+  "movies": [
+    {
+      "tmdb_movie_id": 10138
+    }
+  ],
+  "release_year": 2017,
+  "publisher": "buena_vista_home_entertainment",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "ABC",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      }
+    }
+  ],
+  "upc": "786936854817",
+  "barcode": {
+    "gs1": {
+      "prefix": "0786936",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "786936854817"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "188940",
+      "url": "https://www.blu-ray.com/movies/Iron-Man-2-Blu-ray/188940/"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "movies": [
+    {
+      "tmdb_movie_id": 10138
+    }
+  ],
+  "release_year": 2019,
+  "publisher": "buena_vista_home_entertainment",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "UHD",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "mixed"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "BLURAY",
+      "role": "bonus",
+      "disc_count": 1,
+      "region": "ABC",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "bonus"
+      }
+    }
+  ],
+  "upc": "786936862010",
+  "barcode": {
+    "gs1": {
+      "prefix": "0786936",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "786936862010"
+  },
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "242623",
+      "url": "https://www.blu-ray.com/movies/Iron-Man-2-4K-Blu-ray/242623/"
+    }
+  ]
+}
