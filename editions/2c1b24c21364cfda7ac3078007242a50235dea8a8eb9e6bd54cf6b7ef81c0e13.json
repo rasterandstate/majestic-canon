@@ -1,0 +1,168 @@
+{
+  "movies": [
+    {
+      "tmdb_movie_id": 106
+    },
+    {
+      "tmdb_movie_id": 169
+    },
+    {
+      "tmdb_movie_id": 34851
+    },
+    {
+      "tmdb_movie_id": 346910
+    }
+  ],
+  "release_year": 2018,
+  "publisher": "fox",
+  "packaging": {
+    "type": "keepcase"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "UHD",
+      "role": "feature",
+      "disc_count": 1,
+      "movie_tmdb_id": 106,
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      },
+      "disc_type": "uhd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.uhd",
+        "structural_hash": "faba5e38aa35415aedad0e76b4bb943105c4d84c8341b2847c335c580bf167cb",
+        "cas_hash": "73571f8d47ac7a2e075dde6686d17e591d147cb630475670f0eeb93548f6513f",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-28T00:41:57.419Z",
+        "fingerprinted_at": "2026-02-28T00:41:57.419Z"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "UHD",
+      "role": "feature",
+      "disc_count": 1,
+      "movie_tmdb_id": 169,
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      },
+      "disc_type": "uhd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.uhd",
+        "structural_hash": "1aeaf65c10a015e746a3bdba7db0026c1b7e4fc9e2daca3b858b8ae1410ab282",
+        "cas_hash": "89f588471bdaca57cd41c0a4124e954c7ce44f97b6268aad9dba5e079127ab25",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-28T00:42:38.061Z",
+        "fingerprinted_at": "2026-02-28T00:42:38.061Z"
+      }
+    },
+    {
+      "slot": 3,
+      "format": "UHD",
+      "role": "feature",
+      "disc_count": 1,
+      "movie_tmdb_id": 34851,
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      },
+      "disc_type": "uhd",
+      "disc_identity": {
+        "type": "majestic.optical-disc.uhd",
+        "structural_hash": "9ad3cb774c38e79b53824362bcdaf7ed93323ba7ee8727c41045341ef35beb3f",
+        "cas_hash": "149a8c1e53febf4d3e1801d26aec10575e2eb8e04588392519aa28d3dc9b5b01",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-28T00:43:14.625Z",
+        "fingerprinted_at": "2026-02-28T00:43:14.625Z"
+      }
+    },
+    {
+      "slot": 4,
+      "format": "UHD",
+      "role": "feature",
+      "disc_count": 1,
+      "movie_tmdb_id": 346910,
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      }
+    },
+    {
+      "slot": 5,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "movie_tmdb_id": 106,
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      },
+      "disc_type": "bluray",
+      "disc_identity": {
+        "type": "majestic.optical-disc.bluray",
+        "structural_hash": "e7831cfd10dcad0487f46e2c5f9a8767fa2c39c05a56f9e86692a9532a990c74",
+        "cas_hash": "b39aec77066d2557efb5c97a3f71abd9711a5e7a767c9e72192529b9183e9852",
+        "hash_algorithm": "sha256(index_sha256+MovieObject_sha256+sorted_mpls_sha256_concat_utf8)",
+        "version": 1,
+        "generated_at": "2026-02-28T00:49:37.621Z",
+        "fingerprinted_at": "2026-02-28T00:49:37.621Z"
+      }
+    },
+    {
+      "slot": 6,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "movie_tmdb_id": 169,
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      }
+    },
+    {
+      "slot": 7,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "movie_tmdb_id": 34851,
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      }
+    },
+    {
+      "slot": 8,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "movie_tmdb_id": 346910,
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      }
+    }
+  ],
+  "upc": "024543594871",
+  "barcode": {
+    "gs1": {
+      "prefix": "0024543",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "024543594871"
+  },
+  "notes": "4 Movie Collection",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "220536",
+      "url": "https://www.blu-ray.com/movies/Predator-4-Movie-Collection-4K-Blu-ray/220536/"
+    }
+  ]
+}

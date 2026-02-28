@@ -1,0 +1,56 @@
+{
+  "movies": [
+    {
+      "tmdb_movie_id": 1726
+    }
+  ],
+  "release_year": 2023,
+  "publisher": "buena_vista_home_entertainment",
+  "packaging": {
+    "type": "steelbook"
+  },
+  "discs": [
+    {
+      "slot": 1,
+      "format": "UHD",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "FREE",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      }
+    },
+    {
+      "slot": 2,
+      "format": "BLURAY",
+      "role": "feature",
+      "disc_count": 1,
+      "region": "ABC",
+      "variant": {
+        "video_type": "2D",
+        "content_scope": "feature"
+      }
+    }
+  ],
+  "upc": "786936897142",
+  "barcode": {
+    "gs1": {
+      "prefix": "0786936",
+      "verified": true,
+      "gs1_status": "active"
+    },
+    "upc": "786936897142"
+  },
+  "edition_tags": [
+    "anniversary"
+  ],
+  "notes": "Disney 100 Year Anniversary Edition / Best Buy Exclusive",
+  "external_refs": [
+    {
+      "source": "blu-ray.com",
+      "id": "334854",
+      "url": "https://www.blu-ray.com/movies/Iron-Man-4K-Blu-ray/334854/"
+    }
+  ]
+}
