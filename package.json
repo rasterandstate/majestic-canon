@@ -2,6 +2,7 @@
   "name": "majestic-canon",
   "version": "0.1.0",
   "description": "Majestic Canonical Dataset — source of truth for edition identity, region mappings, publisher normalization",
+  "packageManager": "pnpm@10.30.3",
   "type": "module",
   "private": true,
   "scripts": {
