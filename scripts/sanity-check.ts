@@ -156,24 +156,37 @@ function main(): number {
   if (tagConflicts === 0) console.log('   OK: no conflicting or unknown tags');
   console.log('');
 
-  // 5. Duplicate UPCs across different hashes
-  console.log('5. Duplicate UPCs across editions:');
-  const upcToHashes = new Map<string, string[]>();
+  // 5. True duplicate UPCs (same UPC + packaging + disc layout + publisher = suspicious)
+  // Studios reuse UPCs for slipcover vs keepcase, retailer variants, etc. — that's normal.
+  // Only fail when editions are identical on all identity fields (likely data entry error).
+  console.log('5. Duplicate UPCs (true duplicates only):');
+  const upcToEditions = new Map<string, Array<{ hash: string; sig: string }>>();
   for (const [hash, e] of editions) {
     const upc = e.upc?.trim();
     if (!upc) continue;
-    if (!upcToHashes.has(upc)) upcToHashes.set(upc, []);
-    upcToHashes.get(upc)!.push(hash);
+    const packagingType = e.packaging?.type ?? 'unknown';
+    const discCount = (e.discs ?? []).length;
+    const publisher = e.publisher ?? 'unknown';
+    const sig = `${packagingType}|${discCount}|${publisher}`;
+    if (!upcToEditions.has(upc)) upcToEditions.set(upc, []);
+    upcToEditions.get(upc)!.push({ hash, sig });
   }
   let dupCount = 0;
-  for (const [upc, hashes] of upcToHashes) {
-    if (hashes.length > 1) {
-      console.log(`   ⚠️  UPC ${upc} appears in ${hashes.length} editions: ${hashes.map((h) => h.slice(0, 12)).join(', ')}...`);
-      dupCount++;
-      failed = true;
+  for (const [upc, entries] of upcToEditions) {
+    const sigToHashes = new Map<string, string[]>();
+    for (const { hash, sig } of entries) {
+      if (!sigToHashes.has(sig)) sigToHashes.set(sig, []);
+      sigToHashes.get(sig)!.push(hash);
+    }
+    for (const [sig, hashes] of sigToHashes) {
+      if (hashes.length > 1) {
+        console.log(`   ⚠️  UPC ${upc} appears in ${hashes.length} identical editions: ${hashes.map((h) => h.slice(0, 12)).join(', ')}...`);
+        dupCount++;
+        failed = true;
+      }
     }
   }
-  if (dupCount === 0) console.log('   OK: no duplicate UPCs');
+  if (dupCount === 0) console.log('   OK: no true duplicate UPCs');
   console.log('');
 
   // 6. Unknown publishers

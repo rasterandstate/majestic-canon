@@ -34,7 +34,7 @@
       "format": "DVD",
       "role": "feature_sd_copy",
       "disc_count": 1,
-      "region": "14",
+      "region": "1",
       "variant": {
         "video_type": "2D",
         "content_scope": "mixed"
@@ -52,7 +52,7 @@
       "region_history": [
         {
           "previous": "UNKNOWN",
-          "corrected_to": "14",
+          "corrected_to": "1",
           "corrected_at": "2026-02-27T22:14:11.565Z",
           "reason": "fingerprint"
         }

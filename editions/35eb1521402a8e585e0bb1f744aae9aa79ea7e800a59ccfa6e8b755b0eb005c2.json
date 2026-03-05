@@ -105,7 +105,7 @@
       "format": "DVD",
       "role": "bonus",
       "disc_count": 1,
-      "region": "1234",
+      "region": "ABC",
       "variant": {
         "video_type": "2D",
         "content_scope": "bonus"
@@ -117,7 +117,7 @@
           "video_type": "2D",
           "content_scope": "bonus",
           "notes": "When the Lion Roars: Part 1",
-          "region": "1234",
+          "region": "ABC",
           "disc_identity": {
             "type": "majestic.optical-disc.dvd",
             "structural_hash": "478a9fe81733c87cfe92b2dc7ec20d018182375067dec4c0ea0163c44631b155",
@@ -135,7 +135,7 @@
           "video_type": "2D",
           "content_scope": "bonus",
           "notes": "When the Lion Roars: Part 2",
-          "region": "1234",
+          "region": "ABC",
           "disc_identity": {
             "type": "majestic.optical-disc.dvd",
             "structural_hash": "86f6a06e70d1a08ab3a936a4a7af826b4071feef78c28f29a72aecaae6b6b5ac",
@@ -152,7 +152,7 @@
       "region_history": [
         {
           "previous": "UNKNOWN",
-          "corrected_to": "1234",
+          "corrected_to": "ABC",
           "corrected_at": "2026-02-27T15:40:01.327Z",
           "reason": "fingerprint"
         }
