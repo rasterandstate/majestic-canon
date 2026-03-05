@@ -1,0 +1,24 @@
+{
+  "id": "product_00191329242247",
+  "source": "retail",
+  "entity_type": "product",
+  "primary_id": "00191329242247",
+  "created_at": "2026-03-05T22:27:19.464Z",
+  "data": {
+    "gtin": "191329242247",
+    "first_seen": "2026-03-05T22:27:19.464Z",
+    "last_seen": "2026-03-05T22:27:19.464Z",
+    "tmdb_id": 238,
+    "title": "The Godfather (1972)",
+    "release_year": 1972,
+    "provider": "deepdiscount",
+    "source_url": "https://www.deepdiscount.com/search?q=The+Godfather&mod=AV",
+    "confidence": 1,
+    "raw": {
+      "extracted_from": "search_page"
+    },
+    "providers_seen": [
+      "deepdiscount"
+    ]
+  }
+}

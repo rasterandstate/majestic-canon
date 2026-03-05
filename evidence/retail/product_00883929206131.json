@@ -1,0 +1,24 @@
+{
+  "id": "product_00883929206131",
+  "source": "retail",
+  "entity_type": "product",
+  "primary_id": "00883929206131",
+  "created_at": "2026-03-05T22:26:35.398Z",
+  "data": {
+    "gtin": "883929206131",
+    "first_seen": "2026-03-05T22:26:35.398Z",
+    "last_seen": "2026-03-05T22:26:35.398Z",
+    "tmdb_id": 155,
+    "title": "The Dark Knight (2008)",
+    "release_year": 2008,
+    "provider": "deepdiscount",
+    "source_url": "https://www.deepdiscount.com/search?q=The+Dark+Knight&mod=AV",
+    "confidence": 1,
+    "raw": {
+      "extracted_from": "search_page"
+    },
+    "providers_seen": [
+      "deepdiscount"
+    ]
+  }
+}

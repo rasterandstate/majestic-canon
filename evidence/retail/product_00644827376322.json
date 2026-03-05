@@ -1,0 +1,24 @@
+{
+  "id": "product_00644827376322",
+  "source": "retail",
+  "entity_type": "product",
+  "primary_id": "00644827376322",
+  "created_at": "2026-03-05T22:27:33.549Z",
+  "data": {
+    "gtin": "644827376322",
+    "first_seen": "2026-03-05T22:27:33.549Z",
+    "last_seen": "2026-03-05T22:27:33.549Z",
+    "tmdb_id": 98,
+    "title": "Gladiator (2000)",
+    "release_year": 2000,
+    "provider": "deepdiscount",
+    "source_url": "https://www.deepdiscount.com/search?q=Gladiator&mod=AV",
+    "confidence": 1,
+    "raw": {
+      "extracted_from": "search_page"
+    },
+    "providers_seen": [
+      "deepdiscount"
+    ]
+  }
+}

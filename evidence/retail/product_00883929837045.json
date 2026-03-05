@@ -1,0 +1,24 @@
+{
+  "id": "product_00883929837045",
+  "source": "retail",
+  "entity_type": "product",
+  "primary_id": "00883929837045",
+  "created_at": "2026-03-05T22:26:31.430Z",
+  "data": {
+    "gtin": "883929837045",
+    "first_seen": "2026-03-05T22:26:31.430Z",
+    "last_seen": "2026-03-05T22:26:31.430Z",
+    "tmdb_id": 121,
+    "title": "The Lord of the Rings: The Two Towers (2002)",
+    "release_year": 2002,
+    "provider": "deepdiscount",
+    "source_url": "https://www.deepdiscount.com/search?q=The+Lord+of+the+Rings%3A+The+Two+Towers&mod=AV",
+    "confidence": 1,
+    "raw": {
+      "extracted_from": "search_page"
+    },
+    "providers_seen": [
+      "deepdiscount"
+    ]
+  }
+}

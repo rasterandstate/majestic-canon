@@ -1,0 +1,24 @@
+{
+  "id": "product_00760137819097",
+  "source": "retail",
+  "entity_type": "product",
+  "primary_id": "00760137819097",
+  "created_at": "2026-03-05T22:27:15.454Z",
+  "data": {
+    "gtin": "760137819097",
+    "first_seen": "2026-03-05T22:27:15.454Z",
+    "last_seen": "2026-03-05T22:27:15.454Z",
+    "tmdb_id": 141,
+    "title": "Donnie Darko (2001)",
+    "release_year": 2001,
+    "provider": "deepdiscount",
+    "source_url": "https://www.deepdiscount.com/search?q=Donnie+Darko&mod=AV",
+    "confidence": 1,
+    "raw": {
+      "extracted_from": "search_page"
+    },
+    "providers_seen": [
+      "deepdiscount"
+    ]
+  }
+}

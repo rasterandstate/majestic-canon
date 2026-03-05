@@ -1,0 +1,24 @@
+{
+  "id": "product_05061088921460",
+  "source": "retail",
+  "entity_type": "product",
+  "primary_id": "05061088921460",
+  "created_at": "2026-03-05T22:26:51.432Z",
+  "data": {
+    "gtin": "5061088921460",
+    "first_seen": "2026-03-05T22:26:51.432Z",
+    "last_seen": "2026-03-05T22:26:51.432Z",
+    "tmdb_id": 105,
+    "title": "Back to the Future (1985)",
+    "release_year": 1985,
+    "provider": "deepdiscount",
+    "source_url": "https://www.deepdiscount.com/search?q=Back+to+the+Future&mod=AV",
+    "confidence": 1,
+    "raw": {
+      "extracted_from": "search_page"
+    },
+    "providers_seen": [
+      "deepdiscount"
+    ]
+  }
+}

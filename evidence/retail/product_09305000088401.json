@@ -1,0 +1,24 @@
+{
+  "id": "product_09305000088401",
+  "source": "retail",
+  "entity_type": "product",
+  "primary_id": "09305000088401",
+  "created_at": "2026-03-05T22:27:21.460Z",
+  "data": {
+    "gtin": "9305000088401",
+    "first_seen": "2026-03-05T22:27:21.460Z",
+    "last_seen": "2026-03-05T22:27:21.460Z",
+    "tmdb_id": 329,
+    "title": "Jurassic Park (1993)",
+    "release_year": 1993,
+    "provider": "deepdiscount",
+    "source_url": "https://www.deepdiscount.com/search?q=Jurassic+Park&mod=AV",
+    "confidence": 1,
+    "raw": {
+      "extracted_from": "search_page"
+    },
+    "providers_seen": [
+      "deepdiscount"
+    ]
+  }
+}
