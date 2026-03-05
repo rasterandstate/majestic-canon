@@ -1,0 +1,12 @@
+{
+  "id": "wanted_1892_any_us",
+  "source": "manual",
+  "entity_type": "wanted_product",
+  "primary_id": "1892",
+  "created_at": "2026-03-05T22:07:53.875Z",
+  "data": {
+    "tmdb_id": 1892,
+    "intent": "any",
+    "region": "US"
+  }
+}
