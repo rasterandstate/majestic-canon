@@ -1,0 +1,26 @@
+# Trigger CDN publish when canon data changes.
+# Fires repository_dispatch to majestic-canon-tools, which runs the actual publish.
+name: Trigger CDN publish
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'editions/**'
+      - 'schema/**'
+      - 'config/**'
+      - 'index/**'
+      - 'identity_redirects.json'
+      - 'gs1/**'
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger majestic-canon-tools publish
+        run: |
+          curl -sS -X POST \
+            -H "Authorization: token ${{ secrets.REPO_ACCESS_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository_owner }}/majestic-canon-tools/dispatches" \
+            -d '{"event_type":"canon-updated"}'
